@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Multiplayer1-Day.unity
+  isLoaded: 1
+  isActive: 1

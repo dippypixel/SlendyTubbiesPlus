@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 00d5d5a8ad97e2f4f982977189f92204
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Cylinder001
+    100004: Sphere001
+    100006: Pyramid001
+    100008: Cylinder002
+    100010: Sphere002
+    100012: Bone002
+    100014: Bone001
+    100016: Bone004
+    100018: Bone003
+    100020: Sphere004
+    100022: //RootNode
+    100024: Cylinder003
+    100026: Sphere003
+    400000: Box001
+    400002: Cylinder001
+    400004: Sphere001
+    400006: Pyramid001
+    400008: Cylinder002
+    400010: Sphere002
+    400012: Bone002
+    400014: Bone001
+    400016: Bone004
+    400018: Bone003
+    400020: Sphere004
+    400022: //RootNode
+    400024: Cylinder003
+    400026: Sphere003
+    2300000: Box001
+    2300002: Cylinder001
+    2300004: Sphere001
+    2300006: Pyramid001
+    2300008: Sphere002
+    2300010: Sphere004
+    2300012: Sphere003
+    3300000: Box001
+    3300002: Cylinder001
+    3300004: Sphere001
+    3300006: Pyramid001
+    3300008: Sphere002
+    3300010: Sphere004
+    3300012: Sphere003
+    4300000: Cylinder001
+    4300002: Box001
+    4300004: Pyramid001
+    4300006: Sphere001
+    4300008: Sphere002
+    4300010: Cylinder002
+    4300012: Sphere003
+    4300014: Sphere004
+    4300016: Cylinder003
+    7400000: Take 001
+    7400002: idle
+    11100000: //RootNode
+    13700000: Cylinder002
+    13700002: Cylinder003
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

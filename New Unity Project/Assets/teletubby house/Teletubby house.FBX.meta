@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 14d317750a2c2444b9e7e1a38334466a
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Mesh02
+    100002: Mesh01
+    100004: ceiling_10
+    100006: Mesh03
+    100008: window4
+    100010: ceiling_09
+    100012: window3
+    100014: ceiling_08
+    100016: ceiling_07
+    100018: ceiling_06
+    100020: Componen01
+    100022: slide1
+    100024: ceiling_05
+    100026: window2
+    100028: ceiling_04
+    100030: ceiling_03
+    100032: ceiling_02
+    100034: Component_
+    100036: ceiling_01
+    100038: window1
+    100040: ceiling_su
+    100042: Group1
+    100044: //RootNode
+    400000: Mesh02
+    400002: Mesh01
+    400004: ceiling_10
+    400006: Mesh03
+    400008: window4
+    400010: ceiling_09
+    400012: window3
+    400014: ceiling_08
+    400016: ceiling_07
+    400018: ceiling_06
+    400020: Componen01
+    400022: slide1
+    400024: ceiling_05
+    400026: window2
+    400028: ceiling_04
+    400030: ceiling_03
+    400032: ceiling_02
+    400034: Component_
+    400036: ceiling_01
+    400038: window1
+    400040: ceiling_su
+    400042: Group1
+    400044: //RootNode
+    2300000: Mesh02
+    2300002: Mesh01
+    2300004: ceiling_10
+    2300006: Mesh03
+    2300008: window4
+    2300010: ceiling_09
+    2300012: window3
+    2300014: ceiling_08
+    2300016: ceiling_07
+    2300018: ceiling_06
+    2300020: Componen01
+    2300022: slide1
+    2300024: ceiling_05
+    2300026: window2
+    2300028: ceiling_04
+    2300030: ceiling_03
+    2300032: ceiling_02
+    2300034: Component_
+    2300036: ceiling_01
+    2300038: window1
+    2300040: ceiling_su
+    2300042: Group1
+    3300000: Mesh02
+    3300002: Mesh01
+    3300004: ceiling_10
+    3300006: Mesh03
+    3300008: window4
+    3300010: ceiling_09
+    3300012: window3
+    3300014: ceiling_08
+    3300016: ceiling_07
+    3300018: ceiling_06
+    3300020: Componen01
+    3300022: slide1
+    3300024: ceiling_05
+    3300026: window2
+    3300028: ceiling_04
+    3300030: ceiling_03
+    3300032: ceiling_02
+    3300034: Component_
+    3300036: ceiling_01
+    3300038: window1
+    3300040: ceiling_su
+    3300042: Group1
+    4300000: Group1
+    4300002: ceiling_su
+    4300004: window1
+    4300006: ceiling_01
+    4300008: Component_
+    4300010: ceiling_02
+    4300012: ceiling_03
+    4300014: ceiling_04
+    4300016: window2
+    4300018: ceiling_05
+    4300020: slide1
+    4300022: Componen01
+    4300024: ceiling_06
+    4300026: ceiling_07
+    4300028: ceiling_08
+    4300030: window3
+    4300032: ceiling_09
+    4300034: window4
+    4300036: ceiling_10
+    4300038: Mesh01
+    4300040: Mesh02
+    4300042: Mesh03
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

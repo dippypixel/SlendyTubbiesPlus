@@ -1,0 +1,847 @@
+{
+	"m_AnimationType": 1,
+	"m_Bounds": {
+		"m_Center": {
+			"m_X": 0.08512092,
+			"m_Y": 1.088482,
+			"m_Z": 1.1520969
+		},
+		"m_Extent": {
+			"m_X": 0.65703994,
+			"m_Y": 1.460966,
+			"m_Z": 1.4524573
+		}
+	},
+	"m_Compressed": false,
+	"m_CompressedRotationCurves": [
+		
+	],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets1.assets", "m_PathID": 0 },
+	"m_EditorCurves": [
+		
+	],
+	"m_EulerEditorCurves": [
+		
+	],
+	"m_Events": [
+		
+	],
+	"m_FloatCurves": [
+		
+	],
+	"m_HideFlags": 0,
+	"m_MuscleClip": {
+		"m_AdditionalCurveIndexArray": [
+			
+		],
+		"m_AverageAngularSpeed": 0,
+		"m_AverageSpeed4": {
+			"m_W": 0,
+			"m_X": 0,
+			"m_Y": 0,
+			"m_Z": 0
+		},
+		"m_Clip": {
+			"m_Data": {
+				"m_Binding": {
+					"m_Data": {
+						"m_ValueArray": [
+							
+						]
+					}
+				},
+				"m_DenseClip": {
+					"m_BeginTime": -431602080,
+					"m_CurveCount": 0,
+					"m_FrameCount": 0,
+					"m_SampleArray": [
+						
+					],
+					"m_SampleRate": 0
+				},
+				"m_StreamedClip": {
+					"m_CurveCount": 0,
+					"m_Data": [
+						
+					]
+				}
+			}
+		},
+		"m_CycleOffset": 0,
+		"m_DeltaPose": {
+			"m_DoFArray": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"m_GoalArray": [
+				{
+					"m_WeightR": 0,
+					"m_WeightT": 0,
+					"m_X": {
+						"m_Q": {
+							"m_W": 1,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						},
+						"m_S4": {
+							"m_W": 1,
+							"m_X": 1,
+							"m_Y": 1,
+							"m_Z": 1
+						},
+						"m_T4": {
+							"m_W": 0,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						}
+					}
+				},
+				{
+					"m_WeightR": 0,
+					"m_WeightT": 0,
+					"m_X": {
+						"m_Q": {
+							"m_W": 1,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						},
+						"m_S4": {
+							"m_W": 1,
+							"m_X": 1,
+							"m_Y": 1,
+							"m_Z": 1
+						},
+						"m_T4": {
+							"m_W": 0,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						}
+					}
+				},
+				{
+					"m_WeightR": 0,
+					"m_WeightT": 0,
+					"m_X": {
+						"m_Q": {
+							"m_W": 1,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						},
+						"m_S4": {
+							"m_W": 1,
+							"m_X": 1,
+							"m_Y": 1,
+							"m_Z": 1
+						},
+						"m_T4": {
+							"m_W": 0,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						}
+					}
+				},
+				{
+					"m_WeightR": 0,
+					"m_WeightT": 0,
+					"m_X": {
+						"m_Q": {
+							"m_W": 1,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						},
+						"m_S4": {
+							"m_W": 1,
+							"m_X": 1,
+							"m_Y": 1,
+							"m_Z": 1
+						},
+						"m_T4": {
+							"m_W": 0,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						}
+					}
+				}
+			],
+			"m_LeftHandPose": {
+				"m_CloseOpen": 0,
+				"m_DoFArray": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"m_Grab": 0,
+				"m_GrabX": {
+					"m_Q": {
+						"m_W": 1,
+						"m_X": 0,
+						"m_Y": 0,
+						"m_Z": 0
+					},
+					"m_S4": {
+						"m_W": 1,
+						"m_X": 1,
+						"m_Y": 1,
+						"m_Z": 1
+					},
+					"m_T4": {
+						"m_W": 0,
+						"m_X": 0,
+						"m_Y": 0,
+						"m_Z": 0
+					}
+				},
+				"m_InOut": 0,
+				"m_Override": 0
+			},
+			"m_LookAtPosition": {
+				"m_W": 0,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			},
+			"m_LookAtWeight": {
+				"m_W": 0,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			},
+			"m_RightHandPose": {
+				"m_CloseOpen": 0,
+				"m_DoFArray": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"m_Grab": 0,
+				"m_GrabX": {
+					"m_Q": {
+						"m_W": 1,
+						"m_X": 0,
+						"m_Y": 0,
+						"m_Z": 0
+					},
+					"m_S4": {
+						"m_W": 1,
+						"m_X": 1,
+						"m_Y": 1,
+						"m_Z": 1
+					},
+					"m_T4": {
+						"m_W": 0,
+						"m_X": 0,
+						"m_Y": 0,
+						"m_Z": 0
+					}
+				},
+				"m_InOut": 0,
+				"m_Override": 0
+			},
+			"m_RootX": {
+				"m_Q": {
+					"m_W": 1,
+					"m_X": 0,
+					"m_Y": 0,
+					"m_Z": 0
+				},
+				"m_S4": {
+					"m_W": 1,
+					"m_X": 1,
+					"m_Y": 1,
+					"m_Z": 1
+				},
+				"m_T4": {
+					"m_W": 0,
+					"m_X": 0,
+					"m_Y": 0,
+					"m_Z": 0
+				}
+			}
+		},
+		"m_HeightFromFeet": false,
+		"m_IndexArray": [
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1
+		],
+		"m_KeepOriginalOrientation": false,
+		"m_KeepOriginalPositionXZ": false,
+		"m_KeepOriginalPositionY": true,
+		"m_LeftFootStartX": {
+			"m_Q": {
+				"m_W": 1,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			},
+			"m_S4": {
+				"m_W": 1,
+				"m_X": 1,
+				"m_Y": 1,
+				"m_Z": 1
+			},
+			"m_T4": {
+				"m_W": 0,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			}
+		},
+		"m_Level": 0,
+		"m_LoopBlend": false,
+		"m_LoopBlendOrientation": false,
+		"m_LoopBlendPositionXZ": false,
+		"m_LoopBlendPositionY": false,
+		"m_Mirror": false,
+		"m_MotionStartX": {
+			"m_Q": {
+				"m_W": 1,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			},
+			"m_S4": {
+				"m_W": 1,
+				"m_X": 1,
+				"m_Y": 1,
+				"m_Z": 1
+			},
+			"m_T4": {
+				"m_W": 0,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			}
+		},
+		"m_MotionStopX": {
+			"m_Q": {
+				"m_W": 1,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			},
+			"m_S4": {
+				"m_W": 1,
+				"m_X": 1,
+				"m_Y": 1,
+				"m_Z": 1
+			},
+			"m_T4": {
+				"m_W": 0,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			}
+		},
+		"m_OrientationOffsetY": 0,
+		"m_RightFootStartX": {
+			"m_Q": {
+				"m_W": 1,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			},
+			"m_S4": {
+				"m_W": 1,
+				"m_X": 1,
+				"m_Y": 1,
+				"m_Z": 1
+			},
+			"m_T4": {
+				"m_W": 0,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			}
+		},
+		"m_StartTime": 0,
+		"m_StartX": {
+			"m_Q": {
+				"m_W": 1,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			},
+			"m_S4": {
+				"m_W": 1,
+				"m_X": 1,
+				"m_Y": 1,
+				"m_Z": 1
+			},
+			"m_T4": {
+				"m_W": 0,
+				"m_X": 0,
+				"m_Y": 0,
+				"m_Z": 0
+			}
+		},
+		"m_StopTime": 1,
+		"m_ValueArrayDelta": [
+			
+		]
+	},
+	"m_MuscleClipInfo": {
+		"m_CycleOffset": 0,
+		"m_HeightFromFeet": false,
+		"m_KeepAdditionalBonesAnimation": false,
+		"m_KeepOriginalOrientation": false,
+		"m_KeepOriginalPositionXZ": false,
+		"m_KeepOriginalPositionY": false,
+		"m_Level": 0,
+		"m_LoopBlend": false,
+		"m_LoopBlendOrientation": false,
+		"m_LoopBlendPositionXZ": false,
+		"m_LoopBlendPositionY": false,
+		"m_Mirror": false,
+		"m_OrientationOffsetY": 0,
+		"m_StartTime": 0,
+		"m_StopTime": 0
+	},
+	"m_MuscleClipSize": 0,
+	"m_Name": "fall",
+	"m_PositionCurves": [
+		{
+			"m_Curve": {
+				"m_Curve": [
+					{
+						"m_InSlope": {
+							"m_X": 4.758099E-16,
+							"m_Y": -0,
+							"m_Z": 7.137149E-16
+						},
+						"m_OutSlope": {
+							"m_X": 1.1102226E-15,
+							"m_Y": 9.161084E-08,
+							"m_Z": 1.6653338E-15
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0,
+						"m_Value": {
+							"m_X": 0.17178711,
+							"m_Y": 0,
+							"m_Z": 0.06498831
+						}
+					},
+					{
+						"m_InSlope": {
+							"m_X": 4.7581033E-16,
+							"m_Y": -1.4894836E-06,
+							"m_Z": 7.137155E-16
+						},
+						"m_OutSlope": {
+							"m_X": 4.7581033E-16,
+							"m_Y": -1.4894836E-06,
+							"m_Z": 7.137155E-16
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0.5,
+						"m_Value": {
+							"m_X": 0.17178711,
+							"m_Y": 0.09703464,
+							"m_Z": 0.06498831
+						}
+					}
+				],
+				"m_PostInfinity": 2,
+				"m_PreInfinity": 2
+			},
+			"m_Path": "Object001"
+		}
+	],
+	"m_PrefabInternal": { "m_Collection": "sharedassets1.assets", "m_PathID": 0 },
+	"m_RotationCurves": [
+		{
+			"m_Curve": {
+				"m_Curve": [
+					{
+						"m_InSlope": {
+							"m_W": 0.11443998,
+							"m_X": 0.10079559,
+							"m_Y": 0.03750509,
+							"m_Z": 0.022673598
+						},
+						"m_OutSlope": {
+							"m_W": 0.11443998,
+							"m_X": 0.10079559,
+							"m_Y": 0.03750509,
+							"m_Z": 0.022673598
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0,
+						"m_Value": {
+							"m_W": 0.6864712,
+							"m_X": -0.6864712,
+							"m_Y": -0.16957961,
+							"m_Z": -0.16957961
+						}
+					},
+					{
+						"m_InSlope": {
+							"m_W": 1.151746,
+							"m_X": 1.4118514,
+							"m_Y": 0.48426718,
+							"m_Z": 0.11092545
+						},
+						"m_OutSlope": {
+							"m_W": 1.151746,
+							"m_X": 1.4118514,
+							"m_Y": 0.48426718,
+							"m_Z": 0.11092545
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0.13333334,
+						"m_Value": {
+							"m_W": 0.7832059,
+							"m_X": -0.58718204,
+							"m_Y": -0.1339046,
+							"m_Z": -0.15451671
+						}
+					},
+					{
+						"m_InSlope": {
+							"m_W": 0.7492224,
+							"m_X": 2.0807953,
+							"m_Y": 0.52458394,
+							"m_Z": -0.28794745
+						},
+						"m_OutSlope": {
+							"m_W": 0.7492224,
+							"m_X": 2.0807953,
+							"m_Y": 0.52458394,
+							"m_Z": -0.28794745
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0.2666667,
+						"m_Value": {
+							"m_W": 0.92439276,
+							"m_X": -0.33927527,
+							"m_Y": -0.059218142,
+							"m_Z": -0.163962
+						}
+					},
+					{
+						"m_InSlope": {
+							"m_W": -0.0066661686,
+							"m_X": 0.95317996,
+							"m_Y": 0.094630875,
+							"m_Z": -0.29279783
+						},
+						"m_OutSlope": {
+							"m_W": -0.0066661686,
+							"m_X": 0.95317996,
+							"m_Y": 0.094630875,
+							"m_Z": -0.29279783
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0.43333334,
+						"m_Value": {
+							"m_W": 0.9718264,
+							"m_X": -0.05512352,
+							"m_Y": -0.008086738,
+							"m_Z": -0.22901873
+						}
+					},
+					{
+						"m_InSlope": {
+							"m_W": -0.013945712,
+							"m_X": 0.26310116,
+							"m_Y": 0.019257609,
+							"m_Z": -0.0858719
+						},
+						"m_OutSlope": {
+							"m_W": -0.013945712,
+							"m_X": 0.26310116,
+							"m_Y": 0.019257609,
+							"m_Z": -0.0858719
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0.5,
+						"m_Value": {
+							"m_W": 0.9705781,
+							"m_X": -0.021532882,
+							"m_Y": -0.005319337,
+							"m_Z": -0.23976289
+						}
+					}
+				],
+				"m_PostInfinity": 2,
+				"m_PreInfinity": 2
+			},
+			"m_Path": "Object001"
+		}
+	],
+	"m_SampleRate": 30,
+	"m_ScaleCurves": [
+		{
+			"m_Curve": {
+				"m_Curve": [
+					{
+						"m_InSlope": {
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						},
+						"m_OutSlope": {
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0,
+						"m_Value": {
+							"m_X": 0.6479255,
+							"m_Y": 0.6479255,
+							"m_Z": 0.6479255
+						}
+					},
+					{
+						"m_InSlope": {
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						},
+						"m_OutSlope": {
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						},
+						"m_TangentMode": 0,
+						"m_Time": 0.5,
+						"m_Value": {
+							"m_X": 0.6479255,
+							"m_Y": 0.6479255,
+							"m_Z": 0.6479255
+						}
+					}
+				],
+				"m_PostInfinity": 2,
+				"m_PreInfinity": 2
+			},
+			"m_Path": "Object001"
+		}
+	],
+	"m_WrapMode": 0
+}

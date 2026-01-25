@@ -1,0 +1,19 @@
+var clicked : boolean = false;
+var CameraMenu : Camera;
+var CameraSettings : Camera;
+var CameraSingleplayer : Camera;
+var CameraMultiplayer : Camera;
+var CameraCoop : Camera;
+var CameraVerses : Camera;
+
+function OnMouseDown() {
+    clicked = !clicked;
+    settingsobject = GameObject.FindWithTag("Settings").transform;
+    Destroy(settingsobject.gameObject);
+        CameraMenu.GetComponent.<Camera>().enabled = true;
+        CameraSettings.GetComponent.<Camera>().enabled = false;
+                CameraSingleplayer.GetComponent.<Camera>().enabled = false;
+        CameraMultiplayer.GetComponent.<Camera>().enabled = false;
+                CameraCoop.GetComponent.<Camera>().enabled = false;
+        CameraVerses.GetComponent.<Camera>().enabled = false;        
+}

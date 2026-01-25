@@ -1,0 +1,492 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chase\\New Unity Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\popups\\Popups.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\popups\\Popups.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\flashlight.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\flashlight.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\Loose scripts\\CollectPapers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Loose scripts\\CollectPapers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\lalatrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\lalatrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\singleplayerday.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\menubuttons\\singleplayerday.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\popups\\Popup gui script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\popups\\Popup gui script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\CollideScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CollideScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\coopday.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\menubuttons\\coopday.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391AC5-8752-B4CC-F33F-BB9EB1094377}|Assembly-CSharp-firstpass.csproj|C:\\Users\\chase\\New Unity Project\\assets\\standard assets\\character controllers\\sources\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391AC5-8752-B4CC-F33F-BB9EB1094377}|Assembly-CSharp-firstpass.csproj|solutionrelative:assets\\standard assets\\character controllers\\sources\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Scripts\\Camera Scripts\\MouseOrbit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Standard Assets\\Scripts\\Camera Scripts\\MouseOrbit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\teletubby house\\DoorOpen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\teletubby house\\DoorOpen.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\TriggerTree.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TriggerTree.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\hooverscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\hooverscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391AC5-8752-B4CC-F33F-BB9EB1094377}|Assembly-CSharp-firstpass.csproj|C:\\Users\\chase\\New Unity Project\\assets\\standard assets\\scripts\\general scripts\\activatetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391AC5-8752-B4CC-F33F-BB9EB1094377}|Assembly-CSharp-firstpass.csproj|solutionrelative:assets\\standard assets\\scripts\\general scripts\\activatetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\coopbutton#.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\menubuttons\\coopbutton#.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\characteranimations.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\characteranimations.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\SpeekerTrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SpeekerTrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\PoTrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PoTrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\playerwalkingsound.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\playerwalkingsound.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\popups\\setqualitylevel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\popups\\setqualitylevel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\TriggerDipsy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TriggerDipsy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\StickToPlayer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\StickToPlayer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|Assembly-CSharp.csproj|C:\\Users\\chase\\New Unity Project\\assets\\gamemenusingleplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemenusingleplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\crouchandrun.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\crouchandrun.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chase\\New Unity Project\\Assets\\ILB_3d-trees 1\\fall.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ILB_3d-trees 1\\fall.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|Assembly-CSharp.csproj|C:\\Users\\chase\\New Unity Project\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Popups.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\popups\\Popups.js",
+              "RelativeDocumentMoniker": "Assets\\popups\\Popups.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\popups\\Popups.js",
+              "RelativeToolTip": "Assets\\popups\\Popups.js",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-24T05:36:19.019Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "singleplayerday.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\singleplayerday.js",
+              "RelativeDocumentMoniker": "Assets\\menubuttons\\singleplayerday.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\singleplayerday.js",
+              "RelativeToolTip": "Assets\\menubuttons\\singleplayerday.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-10T21:58:59.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyScript.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Loose scripts\\EnemyScript.js",
+              "RelativeDocumentMoniker": "Assets\\Loose scripts\\EnemyScript.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Loose scripts\\EnemyScript.js",
+              "RelativeToolTip": "Assets\\Loose scripts\\EnemyScript.js",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-24T04:23:04.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "coopday.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\coopday.js",
+              "RelativeDocumentMoniker": "Assets\\menubuttons\\coopday.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\coopday.js",
+              "RelativeToolTip": "Assets\\menubuttons\\coopday.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T04:39:50.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "coopbutton#.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\coopbutton#.js",
+              "RelativeDocumentMoniker": "Assets\\menubuttons\\coopbutton#.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\menubuttons\\coopbutton#.js",
+              "RelativeToolTip": "Assets\\menubuttons\\coopbutton#.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T04:39:31.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "characteranimations.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\characteranimations.js",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\characteranimations.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\characteranimations.js",
+              "RelativeToolTip": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\characteranimations.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T04:10:44.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SpeekerTrigger.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\SpeekerTrigger.js",
+              "RelativeDocumentMoniker": "Assets\\SpeekerTrigger.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\SpeekerTrigger.js",
+              "RelativeToolTip": "Assets\\SpeekerTrigger.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T02:57:09.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "playerwalkingsound.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\playerwalkingsound.js",
+              "RelativeDocumentMoniker": "Assets\\playerwalkingsound.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\playerwalkingsound.js",
+              "RelativeToolTip": "Assets\\playerwalkingsound.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T01:43:45.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FPSInputController.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
+              "RelativeToolTip": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T01:37:15.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MouseLook.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\MouseLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\MouseLook.cs",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\MouseLook.cs",
+              "RelativeToolTip": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\MouseLook.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T01:33:31.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MouseOrbit.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Scripts\\Camera Scripts\\MouseOrbit.js",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Scripts\\Camera Scripts\\MouseOrbit.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Scripts\\Camera Scripts\\MouseOrbit.js",
+              "RelativeToolTip": "Assets\\Standard Assets\\Scripts\\Camera Scripts\\MouseOrbit.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T01:32:04.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "setqualitylevel.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\popups\\setqualitylevel.js",
+              "RelativeDocumentMoniker": "Assets\\popups\\setqualitylevel.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\popups\\setqualitylevel.js",
+              "RelativeToolTip": "Assets\\popups\\setqualitylevel.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-30T14:58:15.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CollectPapers.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Loose scripts\\CollectPapers.js",
+              "RelativeDocumentMoniker": "Assets\\Loose scripts\\CollectPapers.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Loose scripts\\CollectPapers.js",
+              "RelativeToolTip": "Assets\\Loose scripts\\CollectPapers.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-29T21:43:10.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollideScript.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\CollideScript.js",
+              "RelativeDocumentMoniker": "Assets\\CollideScript.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\CollideScript.js",
+              "RelativeToolTip": "Assets\\CollideScript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-29T01:30:37.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GameMenusingleplayer.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\GameMenusingleplayer.cs",
+              "RelativeDocumentMoniker": "Assets\\GameMenusingleplayer.cs",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\GameMenusingleplayer.cs",
+              "RelativeToolTip": "Assets\\GameMenusingleplayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T22:49:24.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "crouchandrun.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\crouchandrun.js",
+              "RelativeDocumentMoniker": "Assets\\crouchandrun.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\crouchandrun.js",
+              "RelativeToolTip": "Assets\\crouchandrun.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T22:48:50.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "flashlight.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\flashlight.js",
+              "RelativeDocumentMoniker": "Assets\\flashlight.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\flashlight.js",
+              "RelativeToolTip": "Assets\\flashlight.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T22:37:55.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoorOpen.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\teletubby house\\DoorOpen.js",
+              "RelativeDocumentMoniker": "Assets\\teletubby house\\DoorOpen.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\teletubby house\\DoorOpen.js",
+              "RelativeToolTip": "Assets\\teletubby house\\DoorOpen.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-25T23:58:46.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PoTrigger.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\PoTrigger.js",
+              "RelativeDocumentMoniker": "Assets\\PoTrigger.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\PoTrigger.js",
+              "RelativeToolTip": "Assets\\PoTrigger.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-25T05:57:14.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "lalatrigger.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\lalatrigger.js",
+              "RelativeDocumentMoniker": "Assets\\lalatrigger.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\lalatrigger.js",
+              "RelativeToolTip": "Assets\\lalatrigger.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-25T05:09:32.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TriggerDipsy.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\TriggerDipsy.js",
+              "RelativeDocumentMoniker": "Assets\\TriggerDipsy.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\TriggerDipsy.js",
+              "RelativeToolTip": "Assets\\TriggerDipsy.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-25T03:15:11.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ActivateTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Scripts\\General Scripts\\ActivateTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Scripts\\General Scripts\\ActivateTrigger.cs",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Scripts\\General Scripts\\ActivateTrigger.cs",
+              "RelativeToolTip": "Assets\\Standard Assets\\Scripts\\General Scripts\\ActivateTrigger.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T03:11:34.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Player.cs",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Player.cs",
+              "RelativeToolTip": "Assets\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:28:34.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CharacterMotor.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
+              "RelativeToolTip": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAAAJ8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-24T21:24:31.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StickToPlayer.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\StickToPlayer.js",
+              "RelativeDocumentMoniker": "Assets\\StickToPlayer.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\StickToPlayer.js",
+              "RelativeToolTip": "Assets\\StickToPlayer.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-24T19:55:27.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Popup gui script.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\popups\\Popup gui script.js",
+              "RelativeDocumentMoniker": "Assets\\popups\\Popup gui script.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\popups\\Popup gui script.js",
+              "RelativeToolTip": "Assets\\popups\\Popup gui script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-24T04:23:57.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "fall.json",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\ILB_3d-trees 1\\fall.json",
+              "RelativeDocumentMoniker": "Assets\\ILB_3d-trees 1\\fall.json",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\ILB_3d-trees 1\\fall.json",
+              "RelativeToolTip": "Assets\\ILB_3d-trees 1\\fall.json",
+              "ViewState": "AgIAADoDAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-25T15:11:15.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TriggerTree.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\TriggerTree.js",
+              "RelativeDocumentMoniker": "Assets\\TriggerTree.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\TriggerTree.js",
+              "RelativeToolTip": "Assets\\TriggerTree.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-25T21:46:01.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "hooverscript.js",
+              "DocumentMoniker": "C:\\Users\\chase\\New Unity Project\\Assets\\hooverscript.js",
+              "RelativeDocumentMoniker": "Assets\\hooverscript.js",
+              "ToolTip": "C:\\Users\\chase\\New Unity Project\\Assets\\hooverscript.js",
+              "RelativeToolTip": "Assets\\hooverscript.js",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T00:30:44.709Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
