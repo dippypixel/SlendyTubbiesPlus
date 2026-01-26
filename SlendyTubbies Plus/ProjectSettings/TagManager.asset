@@ -9,6 +9,8 @@ TagManager:
   - CollectSound
   - Enemy
   - Creditsandhelp
+  - NoFogTinky
+  - PlayerIndicator
   layers:
   - Default
   - TransparentFX

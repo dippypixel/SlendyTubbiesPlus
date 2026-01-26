@@ -58,6 +58,7 @@
      <Compile Include="Assets\test.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Materials\VersusOutline.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\skybox info.txt" />
  <Reference Include="Assembly-CSharp-firstpass">
  <HintPath>C:/Users/albo_/OneDrive/Documents/GitHub/SlendyTubbiesPlus/SlendyTubbies Plus/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>

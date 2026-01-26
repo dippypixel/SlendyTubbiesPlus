@@ -406,7 +406,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -774,6 +774,9 @@ MonoBehaviour:
   invisText: {fileID: 0}
   bindText: {fileID: 0}
   invisTimer: 0
+  playercam: {fileID: 0}
+  model: {fileID: 0}
+  tinkmodel: {fileID: 0}
 --- !u!1002 &11400011
 EditorExtensionImpl:
   serializedVersion: 6

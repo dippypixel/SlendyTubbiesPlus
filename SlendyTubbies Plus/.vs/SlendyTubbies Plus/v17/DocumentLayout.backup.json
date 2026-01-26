@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Materials\\VersusOutline.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Materials\\VersusOutline.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\hooverscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\hooverscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\popups\\Popups.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\popups\\Popups.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0574B955-BB03-5663-3A90-9132D63E445A}|Assembly-CSharp-firstpass.csproj|c:\\unityprojects\\slendytubbiesplus\\slendytubbies plus\\assets\\standard assets\\character controllers\\sources\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0574B955-BB03-5663-3A90-9132D63E445A}|Assembly-CSharp-firstpass.csproj|solutionrelative:assets\\standard assets\\character controllers\\sources\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Tinkyvision.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Tinkyvision.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\EnemyScriptPlayer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EnemyScriptPlayer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5E0B37-2463-5637-9274-47FABF6688E8}|Assembly-CSharp.csproj|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\assets\\gamemenuverses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5E0B37-2463-5637-9274-47FABF6688E8}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemenuverses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5E0B37-2463-5637-9274-47FABF6688E8}|Assembly-CSharp.csproj|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5E0B37-2463-5637-9274-47FABF6688E8}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Stupid shit\\HomerScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -13,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\lalatrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -38,11 +70,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VersusOutline.shader",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Materials\\VersusOutline.shader",
+              "RelativeDocumentMoniker": "Assets\\Materials\\VersusOutline.shader",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Materials\\VersusOutline.shader",
+              "RelativeToolTip": "Assets\\Materials\\VersusOutline.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2026-01-26T22:10:07.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Popups.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\popups\\Popups.js",
+              "RelativeDocumentMoniker": "Assets\\popups\\Popups.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\popups\\Popups.js",
+              "RelativeToolTip": "Assets\\popups\\Popups.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-26T22:04:41.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MouseLook.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\MouseLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\MouseLook.cs",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\MouseLook.cs",
+              "RelativeToolTip": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\MouseLook.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T22:04:18.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tinkyvision.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Tinkyvision.js",
+              "RelativeDocumentMoniker": "Assets\\Tinkyvision.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Tinkyvision.js",
+              "RelativeToolTip": "Assets\\Tinkyvision.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-26T21:59:59.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameMenuVerses.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\GameMenuVerses.cs",
+              "RelativeDocumentMoniker": "Assets\\GameMenuVerses.cs",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\GameMenuVerses.cs",
+              "RelativeToolTip": "Assets\\GameMenuVerses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T21:59:47.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Player.cs",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Player.cs",
+              "RelativeToolTip": "Assets\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T05:02:28.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "hooverscript.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\hooverscript.js",
+              "RelativeDocumentMoniker": "Assets\\hooverscript.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\hooverscript.js",
+              "RelativeToolTip": "Assets\\hooverscript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-26T04:04:01.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyScriptPlayer.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\EnemyScriptPlayer.js",
+              "RelativeDocumentMoniker": "Assets\\EnemyScriptPlayer.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\EnemyScriptPlayer.js",
+              "RelativeToolTip": "Assets\\EnemyScriptPlayer.js",
+              "ViewState": "AgIAAF0AAAAAAAAAAAASwHQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-26T03:45:43.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FPSInputController.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
               "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
@@ -55,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "CharacterMotor.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
               "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
@@ -68,20 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "HomerScript.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js",
               "RelativeDocumentMoniker": "Assets\\Stupid shit\\HomerScript.js",
               "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js",
               "RelativeToolTip": "Assets\\Stupid shit\\HomerScript.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAN4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-25T23:03:20.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "lalatrigger.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\lalatrigger.js",
               "RelativeDocumentMoniker": "Assets\\lalatrigger.js",
@@ -94,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Popup gui script.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\popups\\Popup gui script.js",
               "RelativeDocumentMoniker": "Assets\\popups\\Popup gui script.js",
@@ -102,11 +236,12 @@
               "RelativeToolTip": "Assets\\popups\\Popup gui script.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-25T22:28:43.38Z"
+              "WhenOpened": "2026-01-25T22:28:43.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "CollectPapers.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\CollectPapers.js",
               "RelativeDocumentMoniker": "Assets\\Loose scripts\\CollectPapers.js",
@@ -114,17 +249,18 @@
               "RelativeToolTip": "Assets\\Loose scripts\\CollectPapers.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-25T22:18:21.162Z"
+              "WhenOpened": "2026-01-25T22:18:21.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "EnemyScript.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js",
               "RelativeDocumentMoniker": "Assets\\Loose scripts\\EnemyScript.js",
               "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js",
               "RelativeToolTip": "Assets\\Loose scripts\\EnemyScript.js",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAALYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-25T22:07:32.828Z",
               "EditorCaption": ""
