@@ -167,7 +167,7 @@ function DeductHealth()
     var teleint = Random.Range(0.5, 1.5);
     var teleposleft = Random.Range(0, 2) == 0 ? teleint : (teleint * -1);
     var teleposup = Random.Range(-.2, .2);
-    transform.position += transform.right * teleposleft + transform.forward * .4 + transform.up * teleposup;
+    transform.position += (transform.right * teleposleft) + (transform.forward * .4) + (transform.up * teleposup);
 
 
     // AAAAAAAAAAAAAAAAAAAAAAAAAA... AAAAAAAAAAAAAAAAAAAAAAAAA...
