@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03687beda6d7c9346bb9f4e47831270e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thePlayer: {fileID: 0}
+  playerIndic: {fileID: 4631003656645836, guid: 014789573dfb23445841942c941d5aa8,
+    type: 2}
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6
