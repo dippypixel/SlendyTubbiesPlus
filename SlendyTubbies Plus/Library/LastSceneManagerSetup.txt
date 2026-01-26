@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SingleplayerMorning.unity
+- path: Assets/Multiplayer2-Day.unity
   isLoaded: 1
   isActive: 1
