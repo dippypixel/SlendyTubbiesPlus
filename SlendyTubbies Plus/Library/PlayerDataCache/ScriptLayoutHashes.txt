@@ -90,7 +90,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 ddffee96f0d6d59066aa9fbc8cd20335 Assembly-UnityScript-firstpass.dll:.SmoothFollow
 8ad2bb2cb7179ce5771020d29c8ad1ce Assembly-UnityScript.dll:.mappopup
 af0bb6133c687af5c77bcc97bad6a970 Assembly-UnityScript.dll:.TriggerTree
-cf50b9b10676920ec5135e3ebd0d8bd2 Assembly-UnityScript.dll:.hooverscript
+63dbffaf8c1e8a1ee981d2758afc4ff7 Assembly-UnityScript.dll:.hooverscript
 09c2a78af13f69fd25c17fa615ea8317 Assembly-UnityScript.dll:.coopnight
 09c2a78af13f69fd25c17fa615ea8317 Assembly-UnityScript.dll:.versesdusk
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -148,7 +148,7 @@ f6c96fb046e476e0adb3497ed5b4a6ec Assembly-UnityScript-firstpass.dll:.DragRigidbo
 2abc8dbedcddad7e07898cb056463fa1 Assembly-UnityScript.dll:.spawnvictumgui
 05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Returntomainmenu
 02a53f09916798ab1443770b5716b992 Assembly-UnityScript.dll:.Back
-2b600f53072ef2cf715047127e7a8b22 Assembly-UnityScript.dll:.HomerScript
+a35ce87903f2b4a67f62c4500ca53ff4 Assembly-UnityScript.dll:.HomerScript
 f4e0255cdc83be5cc2df26971ea7a58d Assembly-UnityScript.dll:.lalatrigger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.WaterSimple
 b5b7c02c93ff2aa4d3e6c859649463da Assembly-UnityScript-firstpass.dll:.TimedObjectDestructor
@@ -206,7 +206,7 @@ b32375a5c711499870e4e3efb6ef79d9 Assembly-CSharp.dll:.GameMenusingleplayer
 9fb11e055503ed7f1935c06954e9708d Assembly-UnityScript.dll:.TinkyHallucination
 d0000d03db9adcf74fac6eab7db0ecf0 Assembly-UnityScript.dll:.PoTrigger
 09c2a78af13f69fd25c17fa615ea8317 Assembly-UnityScript.dll:.coopday
-341ab22e17470dec4540d77295dd3b85 Assembly-UnityScript.dll:.EnemyScriptPlayer
+d2f7f0b9c203adc6a31dff6b670423aa Assembly-UnityScript.dll:.EnemyScriptPlayer
 563daf171b5d1c7c75b1108951401223 Assembly-UnityScript-firstpass.dll:.CharacterMotor
 4b679039e864ed66c693c5ea05d9e5f5 Assembly-UnityScript.dll:.Popups
 2acc38a85702464f5cea001c9f8f64b9 Assembly-UnityScript.dll:.EnemyScript

@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 8
   m_Fog: 1
-  m_FogColor: {r: 0.9402985, g: 0.9402985, b: 0.9402985, a: 1}
+  m_FogColor: {r: 1, g: 1, b: 1, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.04
+  m_FogDensity: 0.06
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 0}
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 080f872f551811a4d945c5c3c89158cb, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: cf4ae495a59f5aa42a8fbafd09b0e982, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -5932,7 +5932,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -5944,7 +5944,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -5956,7 +5956,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!82 &757
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6555,6 +6555,7 @@ MonoBehaviour:
   speedLimit: 10
   minSpeed: 1
   stopTime: 1
+  waypoint: {fileID: 326}
   rotationDamping: 6
   smoothRotation: 1
   waypoints: []
@@ -6628,7 +6629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e805a1cafad1b6a44b5d59af06b9a582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 100002, guid: 58f8fff85fc7cf448afdd82c32938b1b, type: 2}
+  PlayerPrefab: {fileID: 1252501972333800, guid: 9a10dad7a4752b940a7160d55a0e8338,
+    type: 2}
   TinkyPrefab: {fileID: 100000, guid: 7ff32c7ee938d4549b169962a2becf76, type: 2}
   NoFog: {fileID: 100000, guid: 9ab786493a1b2124fb00613700c1ea5e, type: 2}
   TinkySpawn: {fileID: 10}
