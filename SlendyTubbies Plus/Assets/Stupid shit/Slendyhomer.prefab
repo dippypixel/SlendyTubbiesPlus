@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 148581407315714788}
   - component: {fileID: 82604104866561116}
   - component: {fileID: 136179529973834372}
+  - component: {fileID: 82756545913418164}
   m_Layer: 0
   m_Name: Slendyhomer
   m_TagString: Enemy
@@ -298,6 +299,86 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!82 &82756545913418164
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963274911185578}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 037d7d903728b46459a4516d914e86b2, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 130
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!111 &111819371127071012
 Animation:
   m_ObjectHideFlags: 1
@@ -325,21 +406,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thePlayer: {fileID: 0}
   theEnemy: {fileID: 4455343805972786}
+  DistanceFromPlayer: 5
   speed: 5
   runspeed: 7
   sprintspeed: 12
+  teleInterval1: 5
+  teleInterval2: 200
+  teleported: 0
+  stopTeleport: 0
   isOffScreen: 0
+  baseSpeed: 5
+  baseTeleInterval1: 10
+  baseTeleInterval2: 200
+  telenumb: 5
   offscreenDotRange: 0.7
   isVisible: 0
   visibleDotRange: 0.8
   isInRange: 0
   hasPlayedAudio: 0
-  teleported: 0
   followDistance: 3
   maxVisibleDistance: 25
   health: 100
   damage: 20
   nearbyaudio: {fileID: 8300000, guid: 6aef00477fbd4b84d859a576bbd929ee, type: 3}
+  killsound: {fileID: 8300000, guid: 037d7d903728b46459a4516d914e86b2, type: 3}
   triggerTarget: {fileID: 0}
   tinkyObject: {fileID: 1431397226931016}
   replacementTex: {fileID: 0}
@@ -350,6 +440,10 @@ MonoBehaviour:
   ifseesobject: {fileID: 400000, guid: bd1eb3054d843f142abd11e84f4beb6b, type: 2}
   gos: []
   timer: 0
+  changetelenumb1: 0
+  changetelenumb2: 0
+  changetelenumb3: 0
+  changetelenumb4: 0
 --- !u!136 &136179529973834372
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -1,13 +1,22 @@
 #pragma strict
 
 public var thePlayer : Transform;
-public var theEnemy : Transform;
+public var theEnemy: Transform;
+
+public var DistanceFromPlayer: float = 5.0;
 
 var speed : float = 5.0;
 var runspeed : float = 7.0;
-var sprintspeed : float = 12.0;
-
-var isOffScreen : boolean = false;
+var sprintspeed: float = 12.0;
+var teleInterval1: float = 5;
+var teleInterval2: float = 200;
+var teleported: boolean = false;
+var stopTeleport: boolean = false;
+var isOffScreen: boolean = false;
+var baseSpeed: float = 5.0;
+var baseTeleInterval1: float = 10;
+var baseTeleInterval2: float = 200;
+var telenumb: float = 5;
 public var offscreenDotRange: float = 0.7;
 
 var isVisible : boolean = false;
@@ -15,7 +24,6 @@ public var visibleDotRange : float = 0.8; // ** between 0.75 and 0.85 (originall
 
 var isInRange: boolean = false;
 var hasPlayedAudio: boolean = false;
-var teleported: boolean = false;
 
 public var followDistance : float = 3.0;
 public var maxVisibleDistance : float = 25.0;
@@ -35,7 +43,8 @@ var blackness : Texture2D;
 var scare : Texture2D;
 
 var endgamepopup : Transform;
-var ifseesobject : Transform;
+var ifseesobject: Transform;
+var killsound: Transform;
 var gos: GameObject[];
 
 var timer: float = 0.0;
@@ -44,16 +53,24 @@ var timer: float = 0.0;
 
 function Start() 
 {
+    baseSpeed = speed;
+    baseTeleInterval1 = teleInterval1;
+    baseTeleInterval2 = teleInterval2;
+    telenumb = Random.Range(teleInterval1, teleInterval2);
+    Debug.Log("started");
     if ( thePlayer == null )
     {
        thePlayer = GameObject.FindWithTag("Player").transform;
     }
+    maxVisibleDistance = 10;
     theEnemy = transform;
-    StartCoroutine(TeleportInv());
+
+    // Initial values
 }
 
 function Update() 
 {
+ 
 thePlayer = GameObject.FindWithTag("Player").transform;
    	//Debug.Log("Player Position: " + thePlayer.position);
    // Debug.Log("Enemy Position: " + theEnemy.position);
@@ -61,7 +78,7 @@ thePlayer = GameObject.FindWithTag("Player").transform;
    // tinkyObject = theEnemy.gameObject;
     // Movement : check if out-of-view, then move
     CheckIfOffScreen();
-
+    TeleportInv();
     //teleport
     timer += Time.deltaTime;
 
@@ -110,19 +127,53 @@ thePlayer = GameObject.FindWithTag("Player").transform;
 function DeductHealth() 
 {
     // deduct health
-    health -= damage * Time.deltaTime;
+    health -= 0;
         Network.Instantiate(ifseesobject, transform.position, transform.rotation, 1);
 
    if (!GetComponent.<AudioSource>().isPlaying){
     GetComponent.<AudioSource>().clip = nearbyaudio;
        GetComponent.< AudioSource > ().Play();
     }
+
+    // teleporting stuff
+    var teleint = Random.Range(0.5, 1.5);
+    var teleposleft = Random.Range(0, 2) == 0 ? teleint : (teleint * -1);
+    var teleposup = Random.Range(-.2, .2);
+    var teleposfwd = .4;
+    CheckDistance();
+
+
+    //make sure he doesnt teleport too far out of range when right in yo face
+    if (DistanceFromPlayer < 20.0)
+    {
+        Debug.Log("too close");   
+        teleposleft = teleposleft * 0;
+        teleposfwd = 0;
+        var fuckyou = triggerTarget.GetComponent.< CharacterMotor > ();
+        health -= 1000;
+        Network.Instantiate(killsound, transform.position, transform.rotation, 1);
+        if (!killsound.GetComponent.< AudioSource > ().isPlaying) {
+            killsound.GetComponent.< AudioSource > ().Play();
+        }
+        triggerTarget.transform.position.y = triggerTarget.transform.position.y + 10;
+        fuckyou.grounded = false;
+        fuckyou.movement.velocity.y = 100;
+        fuckyou.movement.velocity.x = 100;
+    }
+    else
+    {
+        teleposleft = teleposleft * 0;
+        teleposfwd = 1;
+    }
+
+
+    transform.position += (transform.right * teleposleft) + (transform.forward * teleposfwd) + (transform.up * teleposup);
     
     // check if no health left
     if ( health <= 0.0 )
     {
     Network.Instantiate(endgamepopup, transform.position, transform.rotation, 1);
-    DestroyObject (gameObject);
+        thePlayer.GetComponent.< CharacterMotor > ().canControl = false;
        health = 0.0;
        Debug.Log( "YOU ARE OUT OF HEALTH !" );
           
@@ -164,6 +215,7 @@ if(gos.length == 2)
 }
     // Check the Follow Distance
     CheckDistance();
+    CheckIfOffScreen();
 
     // if not too close, move
     if ( !isInRange )
@@ -232,7 +284,7 @@ function CheckDistance()
 {
     var sqrDist : float = (theEnemy.position - thePlayer.position).sqrMagnitude;
     var sqrFollowDist : float = followDistance * followDistance;
-
+    DistanceFromPlayer = sqrDist;
     if ( sqrDist < sqrFollowDist )
     {
        isInRange = true;
@@ -262,11 +314,19 @@ function CheckMaxVisibleRange()
 
 function Teleport() {
     if (!teleported) { // Only teleport if not already teleported
-        teleported = true; // Mark as teleported
-        var randompos = Random.Range(0, 2) == 0 ? 4 : -30; 
+        teleported = true; // Mark as teleported 
         // Teleporting the object
-        transform.position = thePlayer.position - thePlayer.forward * randompos;
-
+        var randompos: float = 0;
+        var randomposside: float = 0;
+        if (gos.length == 4) {
+            randompos = Random.Range(0, 2) == 0 ? -100 : -20;
+            randomposside = Random.Range(-50, 50);
+        }
+        else {
+            randompos = Random.Range(0, 2) == 0 ? 4 : -50;
+            randomposside = Random.Range(-10, 10);
+        }
+        transform.position = thePlayer.position - thePlayer.forward * randompos + thePlayer.right * randomposside;
         // Resetting timer if you need it for some logic
         timer = 0;
 
@@ -276,19 +336,56 @@ function Teleport() {
             audioSource.clip = nearbyaudio; // Change audio clip
             audioSource.Stop(); // Stop current audio
         }
-
+        teleported = false;
         // Note: teleported is set to false later in the coroutine
     }
 }
 
 function TeleportInv() {
-    while (true) { // Infinite loop for continuous teleporting
-        yield WaitForSeconds(Random.Range(10, 300)); // Wait for a random time
-        if (speed != runspeed)
-        {
-            Teleport(); // Call the teleport function
-        }
-        yield WaitForSeconds(Random.Range(10, 300)); // Wait again before the next teleport
-        teleported = false; // Reset the teleported state
+    if (timer > telenumb && !stopTeleport) {
+        Debug.Log("Teleported!");
+        Teleport();
+        telenumb = Random.Range(teleInterval1, teleInterval2);
+    }
+}
+function CheckIfFallen() {
+    if (transform.position.y < -5) {
+        Teleport();
+    }
+}
+
+var changetelenumb1: boolean = false;
+
+function telenumbChange1() {
+    if (!changetelenumb1) {
+        telenumb = Random.Range(teleInterval1, teleInterval2);
+        changetelenumb1 = true;
+    }
+}
+
+var changetelenumb2: boolean = false;
+
+function telenumbChange2() {
+    if (!changetelenumb2) {
+        telenumb = Random.Range(teleInterval1, teleInterval2);
+        changetelenumb2 = true;
+    }
+}
+
+var changetelenumb3: boolean = false;
+
+function telenumbChange3() {
+    if (!changetelenumb3) {
+        telenumb = Random.Range(teleInterval1, teleInterval2);
+        changetelenumb3 = true;
+    }
+}
+
+var changetelenumb4: boolean = false;
+
+function telenumbChange4() {
+    if (!changetelenumb4) {
+        telenumb = Random.Range(teleInterval1, teleInterval2);
+        changetelenumb4 = true;
     }
 }
