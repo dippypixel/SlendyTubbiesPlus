@@ -31,7 +31,13 @@ var scare : Texture2D;
 
 var endgamepopup : Transform;
 
+var invisible : boolean = false;
+var invisDuration : float = 5.0;
+var invisCooldown : float = 10.0;
+var canInvis : boolean = true;
 
+var invisText : GUIText;
+var invisTimer : float = 0.0;
 
 function Start() 
 {
@@ -41,10 +47,39 @@ function Start()
     }
 
     theEnemy = transform;
+
 }
 
 function Update() 
 {
+
+CreateInvisGUIText();
+
+if (!canInvis)
+{
+    invisTimer -= Time.deltaTime;
+
+    if (invisTimer <= 0)
+    {
+        invisTimer = 0;
+        canInvis = true;
+        invisText.text = "INVISIBILITY READY";
+    }
+    else
+    {
+        invisText.text = "INVISIBILITY: " + Mathf.Ceil(invisTimer);
+    }
+}
+else
+{
+    invisText.text = "INVISIBILITY READY";
+}
+
+if (Input.GetKeyDown(KeyCode.F) && canInvis)
+{
+    StartCoroutine(BecomeInvisible());
+}
+
 thePlayer = GameObject.FindWithTag("Player").transform;
     // Movement : check if out-of-view, then move
     CheckIfOffScreen();
@@ -227,4 +262,55 @@ function CheckMaxVisibleRange()
     {
        isInRange = false;
     }  
+}
+
+function BecomeInvisible()
+{
+    canInvis = false;
+    invisible = true;
+
+    invisTimer = invisDuration + invisCooldown;
+
+    // Turn off renderer
+    var model : Transform = transform.Find("Tinkywinky");
+    if (model)
+    {
+        var rends : Renderer[] = model.GetComponentsInChildren.<Renderer>();
+        for (var r : Renderer in rends)
+        {
+            r.enabled = false;
+        }
+    }
+
+    yield WaitForSeconds(invisDuration);
+
+    // Turn renderer back on
+    if (model)
+    {
+        var rends2 : Renderer[] = model.GetComponentsInChildren.<Renderer>();
+        for (var r2 : Renderer in rends2)
+        {
+            r2.enabled = true;
+        }
+    }
+
+    invisible = false;
+}
+
+function CreateInvisGUIText()
+{
+    if (invisText != null) return;
+
+    var go = new GameObject("InvisCooldownText");
+    invisText = go.AddComponent.<GUIText>();
+
+    invisText.text = "";
+    invisText.fontSize = 18;
+    invisText.color = Color.white;
+    invisText.anchor = TextAnchor.UpperLeft;
+    invisText.alignment = TextAlignment.Left;
+
+    go.transform.position = Vector3(0.02, 0.95, 0);
+
+    Debug.Log("GUIText created by code");
 }
