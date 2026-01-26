@@ -35,6 +35,7 @@ var invisible : boolean = false;
 var invisDuration : float = 5.0;
 var invisCooldown : float = 10.0;
 var canInvis : boolean = true;
+static var tinkyInvisible : boolean = false;
 
 var invisText: GUIText;
 var bindText: GUIText;
@@ -42,6 +43,13 @@ var invisTimer: float = 0.0;
 var playercam: Transform;
 var model: Transform;
 var tinkmodel: Transform;
+
+function IsMine() : boolean
+{
+    var nv = GetComponent.<NetworkView>();
+    return nv && nv.isMine;
+}
+
 function Start() 
 {
     model = transform.Find("Model");
@@ -58,7 +66,11 @@ function Start()
 
 function Update() 
 {
-    CreateInvisGUIText();
+
+    if (IsMine())
+    {
+        CreateInvisGUIText();
+    }
 
     if (thePlayer)
     {
@@ -88,29 +100,34 @@ function Update()
         model.transform.position = Vector3(transform.position.x, transform.position.y + 1.07, transform.position.z); 
     }
 
-    if (!canInvis)
-    {
-        invisTimer -= Time.deltaTime;
 
-        if (invisTimer <= 0)
+    if (IsMine() && invisText)
+    {
+        if (!canInvis)
         {
-            invisTimer = 0;
-            canInvis = true;
-            invisText.text = "INVISIBILITY READY";
+            invisTimer -= Time.deltaTime;
+
+            if (invisTimer <= 0)
+            {
+                invisTimer = 0;
+                canInvis = true;
+                invisText.text = "INVISIBILITY READY";
+            }
+            else
+            {
+                invisText.text = "INVISIBILITY: " + Mathf.Ceil(invisTimer);
+            }
         }
         else
         {
-            invisText.text = "INVISIBILITY: " + Mathf.Ceil(invisTimer);
+           invisText.text = "INVISIBILITY READY";
         }
-    }
-    else
-    {
-        invisText.text = "INVISIBILITY READY";
-    }
+     }
 
-    if (Input.GetKeyDown(KeyCode.F) && canInvis)
+    if (IsMine() && Input.GetKeyDown(KeyCode.F) && canInvis)
     {
         Debug.Log("Pressed F!");
+        tinkyInvisible = true;
         StartCoroutine(BecomeInvisible());
     }
 
@@ -317,6 +334,7 @@ function BecomeInvisible()
         }
     }
 
+    tinkyInvisible = false;
     invisible = false;
 }
 
