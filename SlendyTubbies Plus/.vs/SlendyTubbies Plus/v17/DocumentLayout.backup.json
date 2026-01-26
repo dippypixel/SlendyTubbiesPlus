@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Stupid shit\\HomerScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Stupid shit\\HomerScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\lalatrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\lalatrigger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\popups\\Popup gui script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -31,6 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FPSInputController.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
+              "RelativeToolTip": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\FPSInputController.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-26T00:01:46.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterMotor.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
+              "RelativeDocumentMoniker": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
+              "RelativeToolTip": "Assets\\Standard Assets\\Character Controllers\\Sources\\Scripts\\CharacterMotor.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-25T23:18:21.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomerScript.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js",
+              "RelativeDocumentMoniker": "Assets\\Stupid shit\\HomerScript.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js",
+              "RelativeToolTip": "Assets\\Stupid shit\\HomerScript.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-25T23:03:20.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "lalatrigger.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\lalatrigger.js",
+              "RelativeDocumentMoniker": "Assets\\lalatrigger.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\lalatrigger.js",
+              "RelativeToolTip": "Assets\\lalatrigger.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-25T22:56:42.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Popup gui script.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\popups\\Popup gui script.js",
               "RelativeDocumentMoniker": "Assets\\popups\\Popup gui script.js",
@@ -38,12 +102,11 @@
               "RelativeToolTip": "Assets\\popups\\Popup gui script.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-25T22:28:43.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T22:28:43.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CollectPapers.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\CollectPapers.js",
               "RelativeDocumentMoniker": "Assets\\Loose scripts\\CollectPapers.js",
@@ -55,28 +118,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EnemyScript.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js",
               "RelativeDocumentMoniker": "Assets\\Loose scripts\\EnemyScript.js",
               "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js",
               "RelativeToolTip": "Assets\\Loose scripts\\EnemyScript.js",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAHQBAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAALYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-25T22:07:32.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomerScript.js",
-              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js",
-              "RelativeDocumentMoniker": "Assets\\Stupid shit\\HomerScript.js",
-              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js",
-              "RelativeToolTip": "Assets\\Stupid shit\\HomerScript.js",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAAAMAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-25T22:07:22.805Z",
               "EditorCaption": ""
             }
           ]

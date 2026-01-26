@@ -10,7 +10,7 @@
     private var accelState : boolean;
     private var slowState : boolean;
      
-    private var waypoint : Transform;
+    var waypoint : Transform;
     var rotationDamping = 6.0;
     var smoothRotation = true;
     var waypoints : Transform[];
