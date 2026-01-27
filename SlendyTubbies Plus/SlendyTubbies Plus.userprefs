@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\menubuttons\versesnight.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Tinkyvision.js">
     <Files>
-      <File FileName="Assets\EnemyScriptPlayer.js" Line="1" Column="1" />
+      <File FileName="Assets\EnemyScriptPlayer.js" Line="337" Column="28" />
       <File FileName="Assets\menubuttons\versesday.js" Line="1" Column="1" />
       <File FileName="Assets\menubuttons\versesdusk.js" Line="1" Column="1" />
       <File FileName="Assets\menubuttons\versesnight.js" Line="1" Column="1" />
+      <File FileName="Assets\Tinkyvision.js" Line="5" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -196,7 +196,7 @@ e188052947f43b342c029c5c05a7221c Assembly-UnityScript.dll:.FlyingCamera
 42178abeeb177fad24cc0b1ee16e9927 Assembly-UnityScript.dll:.flashlightlife
 d720d104ba371072094e66111bc68ea5 Assembly-UnityScript-firstpass.dll:.characteranimations
 02a53f09916798ab1443770b5716b992 Assembly-UnityScript.dll:.Singleplayerbutton#
-05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Tinkyvision
+52b438d1f638691af29b5e161169b5cf Assembly-UnityScript.dll:.Tinkyvision
 05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.winmanager
 0638f5b6bde6ba2aa6b2cea9a7c715d4 Assembly-UnityScript.dll:.SpeekerTrigger
 8e360fa6cac01726cf0a1a86f0b8ec43 Assembly-UnityScript.dll:.setqualitylevel
