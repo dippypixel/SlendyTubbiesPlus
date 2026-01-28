@@ -31,7 +31,10 @@ public class GameMenuVerses : MonoBehaviour
         t.transform.Find("Camera").GetComponent<Camera>().enabled = true;
 		t.transform.Find("Camera").GetComponent<Light>().enabled = true;		
         GetComponent<Camera>().enabled = false;
-		Instantiate(NoFog, transform.position, transform.rotation);
+		var nf = Instantiate(NoFog, t.transform.position, t.transform.rotation) as GameObject;
+		nf.transform.SetParent(t.transform);
+		nf.transform.localPosition = Vector3.zero;
+		nf.transform.localRotation = Quaternion.identity;
   }
 	
     void OnDisconnectedFromServer()

@@ -210,3 +210,5 @@ d2f7f0b9c203adc6a31dff6b670423aa Assembly-UnityScript.dll:.EnemyScriptPlayer
 563daf171b5d1c7c75b1108951401223 Assembly-UnityScript-firstpass.dll:.CharacterMotor
 4b679039e864ed66c693c5ea05d9e5f5 Assembly-UnityScript.dll:.Popups
 2acc38a85702464f5cea001c9f8f64b9 Assembly-UnityScript.dll:.EnemyScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.ohgodhaavemercy
+05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.NetworkTransformSimple

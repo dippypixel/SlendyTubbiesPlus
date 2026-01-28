@@ -7239,6 +7239,7 @@ MonoBehaviour:
   speedLimit: 10
   minSpeed: 1
   stopTime: 1
+  waypoint: {fileID: 0}
   rotationDamping: 6
   smoothRotation: 1
   waypoints:
@@ -13162,6 +13163,10 @@ Prefab:
       propertyPath: Ambience
       value: 
       objectReference: {fileID: 187}
+    - target: {fileID: 1403310554107930, guid: 6bfd07eeb1658bf4d9eee216f5594c80, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6bfd07eeb1658bf4d9eee216f5594c80, type: 2}
   m_IsPrefabParent: 0
