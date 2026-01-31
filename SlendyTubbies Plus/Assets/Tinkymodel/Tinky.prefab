@@ -357,12 +357,12 @@ MonoBehaviour:
   maxVisibleDistance: 25
   health: 100
   damage: 150
-  timer: 46.105434
-  teleInterval1: 3
+  timer: 0
+  teleInterval1: 100
   teleInterval2: 200
   telenumb: 300
   baseSpeed: 5
-  baseTeleInterval1: 5
+  baseTeleInterval1: 100
   baseTeleInterval2: 200
   nightVisionMultiplierSpeed: 1
   nightVisionMultiplierTele: 1

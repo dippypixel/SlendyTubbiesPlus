@@ -187,5 +187,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef35b26617db774197c3e90fdeb3761, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yourtexture: {fileID: 2800000, guid: 449c86029686e5d4e82c562c2743c239, type: 3}
+  yourtexture: {fileID: 2800000, guid: e0ee717b644f51140b320390fbe305b2, type: 3}
   popupsound: {fileID: 8300000, guid: bcf04c96ff3e2d04684e3cbea1ab0797, type: 3}
