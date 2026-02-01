@@ -33,7 +33,6 @@ function Update()
 		else
 		{
 			Application.Quit();
-			Destroy(gameObject);
 		}
 
 	}
@@ -41,7 +40,6 @@ function Update()
 		screamtimer += Time.deltaTime;
 		if (screamtimer > 1) {
 			Application.Quit();
-			Destroy(gameObject);
 		}
 
 	}

@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yourtexture: {fileID: 2800000, guid: 3e4d9a0edfff7a44a9c3a812e04bddbf, type: 3}
-  popupsound: {fileID: 0}
+  popupsound: {fileID: 8300000, guid: 6212f303ca249ce49bc7210bd8763a79, type: 3}
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6

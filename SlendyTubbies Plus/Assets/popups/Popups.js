@@ -1,5 +1,6 @@
 
-var timer : float = 0.0;
+var timer: float = 0.0;
+var telenumb: int = 10;
 var spawning : boolean = false;
 var spawnpoint : Transform;
 var spawn1 : Transform;
@@ -13,7 +14,6 @@ var gos: GameObject[];
 var shitgetreal: boolean = false;
 var shitgetmorereal: boolean = false;
 var randomPick: int = 0;
-var telenumb: int = 10;
 var house: GameObject;
 var lala: GameObject;
 var po: GameObject;
@@ -40,19 +40,24 @@ function Update() {
     laladistance = (thePlayer.position - lala.transform.position).magnitude;
     podistance = (thePlayer.position - po.transform.position).magnitude;
     if (tinkydistance < 50) {
+        Debug.Log("TinkyPopup");
         randomPick = 6;
     }
     else if (housedistance < 90) {
+        Debug.Log("HousePopup");
         randomPick = Random.Range(4, 5);
     }
     else if (podistance < 90) {
+        Debug.Log("PoPopup");
         randomPick = 3;
     }
     else if (laladistance < 90) {
+        Debug.Log("LalaPopup");
         randomPick = 2;
     }
     else {
-    randomPick = Mathf.Abs(Random.Range(1, 5));
+        Debug.Log("RandomPopup");
+        randomPick = Mathf.Abs(Random.Range(1, 5));
     }
 
     if (!spawning) {

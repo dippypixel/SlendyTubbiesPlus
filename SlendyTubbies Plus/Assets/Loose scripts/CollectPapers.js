@@ -28,7 +28,7 @@ function Start()
     {
        // Debug.Log("Triggered by [tag] : " + other.gameObject.tag); // check the tag of the object hit
        // Debug.Log("Triggered by [name] : " + other.gameObject.name); // check the name of the object hit
-       Debug.Log("Triggered by [name] : " + other.gameObject.name);
+       //Debug.Log("Triggered by [name] : " + other.gameObject.name);
         if (other.gameObject.CompareTag("Paper")) // did the trigger hit Paper?
        {
          Paper += 1;
@@ -38,7 +38,7 @@ function Start()
             collectsound.GetComponent.< AudioSource > ().Play();
         }
 
-         Debug.Log("A paper was picked up. Total papers = " + Paper);
+         //Debug.Log("A paper was picked up. Total papers = " + Paper);
        }
                      if (Paper == paperToWin){
        
