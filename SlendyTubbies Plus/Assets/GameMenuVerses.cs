@@ -99,6 +99,10 @@ public class GameMenuVerses : MonoBehaviour
 		//disable shit
 		Camera spawnCam = GetComponent<Camera>();
 		if (spawnCam) spawnCam.enabled = false;
+
+		MonoBehaviour fl = g.GetComponent ("flashlight") as MonoBehaviour;
+		if (fl) fl.enabled = true;
+
 	}
 
 	void DisablePlayer(GameObject g)
@@ -120,6 +124,10 @@ public class GameMenuVerses : MonoBehaviour
 
 		FPSInputController input = g.GetComponent<FPSInputController>();
 		if (input) input.enabled = false;
+
+
+		MonoBehaviour fl = g.GetComponent ("flashlight") as MonoBehaviour;
+		if (fl) fl.enabled = false;
 	}
 
 	//network shit
