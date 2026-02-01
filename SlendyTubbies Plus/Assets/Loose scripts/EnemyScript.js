@@ -12,12 +12,12 @@ private var sqrDist: float = 0.0;
 var health: float = 100.0;
 var damage: float = 20.0;
 var timer: float = 0.0;
-var teleInterval1: float = 5;
+var teleInterval1: float = 100;
 var teleInterval2: float = 200;
 var telenumb: float = 5;
 
 var baseSpeed : float = 5.0;
-var baseTeleInterval1 : float = 5;
+var baseTeleInterval1 : float = 100;
 var baseTeleInterval2 : float = 200;
 
 var nightVisionMultiplierSpeed : float = 1.0;
