@@ -31,107 +31,21 @@ var scare : Texture2D;
 
 var endgamepopup : Transform;
 
-var invisible : boolean = false;
-var invisDuration : float = 5.0;
-var invisCooldown : float = 10.0;
-var canInvis : boolean = true;
-static var tinkyInvisible : boolean = false;
 
-var invisText: GUIText;
-var bindText: GUIText;
-var invisTimer: float = 0.0;
-var playercam: Transform;
-var model: Transform;
-var tinkmodel: Transform;
-
-function IsMine() : boolean
-{
-    var nv = GetComponent.<NetworkView>();
-    return nv && nv.isMine;
-}
 
 function Start() 
 {
-    model = transform.Find("Model");
-    tinkmodel = model.Find("Tinkywinky");
     if ( thePlayer == null )
     {
-        thePlayer = GameObject.FindWithTag("Player").transform;
-        playercam = GameObject.FindWithTag("Player").Find("Camera").transform;
+       thePlayer = GameObject.FindWithTag("Player").transform;
     }
 
     theEnemy = transform;
-
 }
 
 function Update() 
 {
-
-    if (IsMine())
-    {
-        CreateInvisGUIText();
-    }
-
-    if (thePlayer)
-    {
-        Debug.Log("Looking At Player");
-        model.transform.LookAt(playercam);
-        if (isInRange) {
-            DeductHealth();
-            if (!GetComponent.< AudioSource > ().isPlaying) {
-                GetComponent.< AudioSource > ().clip = nearbyaudio;
-                GetComponent.< AudioSource > ().Play();
-            }
-
-            var teleint = Random.Range(0.5, 1.5);
-            var teleposleft = Random.Range(-4, 4);
-            var teleposup = Random.Range(-1, 1);
-            var ogpos = model.transform;
-            model.transform.position = Vector3(transform.position.x + teleposleft, transform.position.y + 1.07, transform.position.z + teleposup);
-            model.transform.LookAt(playercam);
-        }
-        else {
-            model.transform.position = Vector3(transform.position.x, transform.position.y + 1.07, transform.position.z);
-        }
-    }
-
-    else 
-    {
-        model.transform.position = Vector3(transform.position.x, transform.position.y + 1.07, transform.position.z); 
-    }
-
-
-    if (IsMine() && invisText)
-    {
-        if (!canInvis)
-        {
-            invisTimer -= Time.deltaTime;
-
-            if (invisTimer <= 0)
-            {
-                invisTimer = 0;
-                canInvis = true;
-                invisText.text = "INVISIBILITY READY";
-            }
-            else
-            {
-                invisText.text = "INVISIBILITY: " + Mathf.Ceil(invisTimer);
-            }
-        }
-        else
-        {
-           invisText.text = "INVISIBILITY READY";
-        }
-     }
-
-    if (IsMine() && Input.GetKeyDown(KeyCode.F) && canInvis)
-    {
-        Debug.Log("Pressed F!");
-        tinkyInvisible = true;
-        StartCoroutine(BecomeInvisible());
-    }
-
-    thePlayer = GameObject.FindWithTag("Player").transform;
+thePlayer = GameObject.FindWithTag("Player").transform;
     // Movement : check if out-of-view, then move
     CheckIfOffScreen();
 
@@ -180,14 +94,29 @@ function DeductHealth()
 {
     // deduct health
     health -= damage * Time.deltaTime;
+    triggerTarget.GetComponent.<Renderer>().material.mainTexture = replacementTex;
+    
+    if (!GetComponent.<AudioSource>().isPlaying){
+    GetComponent.<AudioSource>().clip = nearbyaudio;
+    GetComponent.<AudioSource>().Play();
+    }
     
     // check if no health left
     if ( health <= 0.0 )
-    {
-       model.transform.position = Vector3(transform.position.x, transform.position.y + 1.07, transform.position.z);
-       DestroyObject(thePlayer.gameObject);
+    {  
+
+       // only victim client can enter spectator mode
+       if (thePlayer && thePlayer.GetComponent.<NetworkView>().isMine)
+       {
+           ActivateSpectatorForLocalPlayer();
+       }
+
        health = 0.0;
+       GetComponent.<NetworkView>().RPC("Server_DestroyPlayer", RPCMode.Server);
        Debug.Log( "YOU ARE OUT OF HEALTH !" );
+          
+       // Restart game here!
+       //
     }
 }
 
@@ -305,65 +234,43 @@ function CheckMaxVisibleRange()
     }  
 }
 
-function BecomeInvisible()
+@RPC
+function Server_DestroyPlayer()
 {
-    canInvis = false;
-    invisible = true;
+    if (!Network.isServer) return;
 
-    invisTimer = invisDuration + invisCooldown;
-
-    // Turn off renderer
-    if (model)
+    if (thePlayer)
     {
-        var rends : Renderer[] = model.GetComponentsInChildren.<Renderer>();
-        for (var r : Renderer in rends)
-        {
-            r.enabled = false;
-        }
+        Debug.Log("[VERSUS] Destroying victim: " + thePlayer.name);
+        Network.Destroy(thePlayer.gameObject);
     }
-
-    yield WaitForSeconds(invisDuration);
-
-    // Turn renderer back on
-    if (model)
-    {
-        var rends2 : Renderer[] = model.GetComponentsInChildren.<Renderer>();
-        for (var r2 : Renderer in rends2)
-        {
-            r2.enabled = true;
-        }
-    }
-
-    tinkyInvisible = false;
-    invisible = false;
 }
 
-function CreateInvisGUIText()
+function ActivateSpectatorForLocalPlayer()
 {
-    if (invisText != null) return;
+    Debug.Log("[VERSUS] Activating spectator mode");
 
-    var go = new GameObject("InvisCooldownText");
-    invisText = go.AddComponent.<GUIText>();
+    // shut local player cam down
+    var cam = thePlayer.Find("Camera");
+    if (cam)
+    {
+        cam.gameObject.SetActive(false);
+    }
 
-    invisText.text = "";
-    invisText.fontSize = 18;
-    invisText.color = Color.white;
-    invisText.anchor = TextAnchor.UpperLeft;
-    invisText.alignment = TextAlignment.Left;
+    // activate spectator cam
+    var spec = GameObject.Find("SpectatorCamera");
+    if (spec)
+    {
+        var c = spec.GetComponent.<Camera>();
+        if (c) c.enabled = true;
 
-    go.transform.position = Vector3(0.02, 0.95, 0);
+        var al = spec.GetComponent.<AudioListener>();
+        if (al) al.enabled = true;
 
-    //keybind text
-    var go2 = new GameObject("KeybindText");
-    bindText = go2.AddComponent.< GUIText > ();
+        var fly = spec.GetComponent.<SpectatorCamera>();
+        if (fly) fly.enabled = true;
 
-    bindText.text = "F to INVISIBLE";
-    bindText.fontSize = 18;
-    bindText.color = Color.white;
-    bindText.anchor = TextAnchor.LowerRight;
-    bindText.alignment = TextAlignment.Left;
-
-    go2.transform.position = Vector3(0.95, 0.05, 0);
-
-    Debug.Log("GUIText created by code");
+        var death = spec.GetComponent.<Popupguiscript>();
+        if (death) death.enabled = true;
+    }
 }

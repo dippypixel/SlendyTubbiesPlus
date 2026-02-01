@@ -1,15 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NetworkTransformSimple.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EnemyScriptPlayer.js">
     <Files>
-      <File FileName="Assets\EnemyScriptPlayer.js" Line="1" Column="1" />
+      <File FileName="Assets\EnemyScriptPlayer.js" Line="273" Column="49" />
       <File FileName="Assets\menubuttons\versesday.js" Line="1" Column="1" />
       <File FileName="Assets\menubuttons\versesdusk.js" Line="1" Column="1" />
       <File FileName="Assets\menubuttons\versesnight.js" Line="1" Column="1" />
       <File FileName="Assets\Tinkyvision.js" Line="1" Column="1" />
       <File FileName="Assets\GameMenuVerses.cs" Line="1" Column="1" />
       <File FileName="Assets\ohgodhaavemercy.js" Line="1" Column="1" />
-      <File FileName="Assets\NetworkTransformSimple.js" Line="27" Column="41" />
+      <File FileName="Assets\NetworkTransformSimple.js" Line="1" Column="1" />
+      <File FileName="Assets\PlayerNetworkController.cs" Line="1" Column="1" />
+      <File FileName="Assets\crouchandrun.js" Line="1" Column="1" />
+      <File FileName="Assets\flashlight.js" Line="1" Column="1" />
+      <File FileName="Assets\spawnslendysgui.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

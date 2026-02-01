@@ -55,6 +55,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 e3cb3dd9f4f307ef431f7720437b9cba Assembly-UnityScript.dll:.turnsound2
+05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.ohgodhaavemercy
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -137,7 +138,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript-firstpass.dll:.FPSInputController
 16301483a7160a6ee1d967cdcdb154c3 Assembly-UnityScript.dll:.TriggerDipsy
 4df86f437a61b08c14fd0adff88ddf71 Assembly-CSharp-firstpass.dll:.ActivateTrigger
-d99c243aa9a6c50db11300858d7a2845 Assembly-UnityScript.dll:.Popup gui script
 09c2a78af13f69fd25c17fa615ea8317 Assembly-UnityScript.dll:.singleplayerday
 3f4ab27a1902941739cfca15d600cbba Assembly-UnityScript.dll:.Tinkypopupcontrol
 f6c96fb046e476e0adb3497ed5b4a6ec Assembly-UnityScript-firstpass.dll:.DragRigidbody
@@ -148,6 +148,7 @@ f6c96fb046e476e0adb3497ed5b4a6ec Assembly-UnityScript-firstpass.dll:.DragRigidbo
 2abc8dbedcddad7e07898cb056463fa1 Assembly-UnityScript.dll:.spawnvictumgui
 05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Returntomainmenu
 02a53f09916798ab1443770b5716b992 Assembly-UnityScript.dll:.Back
+05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.NetworkTransformSimple
 a35ce87903f2b4a67f62c4500ca53ff4 Assembly-UnityScript.dll:.HomerScript
 f4e0255cdc83be5cc2df26971ea7a58d Assembly-UnityScript.dll:.lalatrigger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.WaterSimple
@@ -174,10 +175,11 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LalaTrigger
 783bf6d659235f53a950684dd61ab5b9 Assembly-CSharp-firstpass.dll:.MouseLook
 b5b7c02c93ff2aa4d3e6c859649463da Assembly-UnityScript.dll:.disconnect&end
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerNetworkController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
-5aeb2d1dbb115d65f46a6f2c9895226b Assembly-CSharp.dll:.GameMenuVerses
+ebc1e8486cafdadb445c108a4a6d6161 Assembly-CSharp.dll:.GameMenuVerses
 7e67b62905fcb13cdb888aac1573d869 Assembly-UnityScript.dll:.Settings
 05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Gamequit
 09c2a78af13f69fd25c17fa615ea8317 Assembly-UnityScript.dll:.singleplayernight
@@ -196,7 +198,7 @@ e188052947f43b342c029c5c05a7221c Assembly-UnityScript.dll:.FlyingCamera
 42178abeeb177fad24cc0b1ee16e9927 Assembly-UnityScript.dll:.flashlightlife
 d720d104ba371072094e66111bc68ea5 Assembly-UnityScript-firstpass.dll:.characteranimations
 02a53f09916798ab1443770b5716b992 Assembly-UnityScript.dll:.Singleplayerbutton#
-52b438d1f638691af29b5e161169b5cf Assembly-UnityScript.dll:.Tinkyvision
+05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Tinkyvision
 05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.winmanager
 0638f5b6bde6ba2aa6b2cea9a7c715d4 Assembly-UnityScript.dll:.SpeekerTrigger
 8e360fa6cac01726cf0a1a86f0b8ec43 Assembly-UnityScript.dll:.setqualitylevel
@@ -206,9 +208,9 @@ b32375a5c711499870e4e3efb6ef79d9 Assembly-CSharp.dll:.GameMenusingleplayer
 9fb11e055503ed7f1935c06954e9708d Assembly-UnityScript.dll:.TinkyHallucination
 d0000d03db9adcf74fac6eab7db0ecf0 Assembly-UnityScript.dll:.PoTrigger
 09c2a78af13f69fd25c17fa615ea8317 Assembly-UnityScript.dll:.coopday
-d2f7f0b9c203adc6a31dff6b670423aa Assembly-UnityScript.dll:.EnemyScriptPlayer
+341ab22e17470dec4540d77295dd3b85 Assembly-UnityScript.dll:.EnemyScriptPlayer
 563daf171b5d1c7c75b1108951401223 Assembly-UnityScript-firstpass.dll:.CharacterMotor
 4b679039e864ed66c693c5ea05d9e5f5 Assembly-UnityScript.dll:.Popups
 2acc38a85702464f5cea001c9f8f64b9 Assembly-UnityScript.dll:.EnemyScript
-05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.ohgodhaavemercy
-05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.NetworkTransformSimple
+18baf0aa9c78aaefddd53a2024ccb203 Assembly-UnityScript.dll:.SpectatorCamera
+d99c243aa9a6c50db11300858d7a2845 Assembly-UnityScript.dll:.Popupguiscript

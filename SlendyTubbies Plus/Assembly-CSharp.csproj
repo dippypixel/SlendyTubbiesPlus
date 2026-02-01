@@ -51,6 +51,7 @@
      <Compile Include="Assets\GameMenuVerses.cs" />
      <Compile Include="Assets\LalaTrigger.cs" />
      <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\PlayerNetworkController.cs" />
      <Compile Include="Assets\popups\gameoptions.cs" />
      <Compile Include="Assets\spawnslendy.cs" />
      <Compile Include="Assets\Start Scenes\LoadMenu.cs" />

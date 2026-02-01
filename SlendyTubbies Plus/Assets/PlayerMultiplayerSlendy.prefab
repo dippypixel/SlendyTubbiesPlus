@@ -724,22 +724,13 @@ MonoBehaviour:
   health: 100
   damage: 40
   nearbyaudio: {fileID: 8300000, guid: 20db4a9f8b02ca54e95acc4a1325c2c9, type: 3}
-  triggerTarget: {fileID: 100002, guid: 58f8fff85fc7cf448afdd82c32938b1b, type: 2}
+  triggerTarget: {fileID: 1595187172453404, guid: 1e4ae29d7ad06da4c9172ecc3c50fa27,
+    type: 2}
   replacementTex: {fileID: 0}
   originalTex: {fileID: 0}
   blackness: {fileID: 0}
   scare: {fileID: 0}
   endgamepopup: {fileID: 400000, guid: a6608b39e5f56e8468400f8acf79da59, type: 2}
-  invisible: 0
-  invisDuration: 5
-  invisCooldown: 10
-  canInvis: 1
-  invisText: {fileID: 0}
-  bindText: {fileID: 0}
-  invisTimer: 0
-  playercam: {fileID: 0}
-  model: {fileID: 0}
-  tinkmodel: {fileID: 0}
 --- !u!1002 &11400011
 EditorExtensionImpl:
   serializedVersion: 6

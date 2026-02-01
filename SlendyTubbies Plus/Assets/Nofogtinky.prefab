@@ -49,6 +49,9 @@ MonoBehaviour:
   thePlayer: {fileID: 0}
   playerIndic: {fileID: 4631003656645836, guid: 014789573dfb23445841942c941d5aa8,
     type: 2}
+  PlayerIndicator: {fileID: 1799205611885790, guid: 014789573dfb23445841942c941d5aa8,
+    type: 2}
+  indicatorOffset: {x: 0, y: 1.07, z: 0}
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6

@@ -5,15 +5,20 @@ var runSpeed: float = 20; // run speed
 private var chMotor: CharacterMotor;
 private var tr: Transform;
 private var dist: float; // distance to ground
+private var nv : NetworkView;
 
 function Start(){
+    nv = GetComponent.<NetworkView>();
     chMotor = GetComponent(CharacterMotor);
     tr = transform;
     var ch:CharacterController = GetComponent(CharacterController);
-    dist = ch.height/2; // calculate distance to ground
+    dist = ch.height/2;
 }
 
 function Update(){
+
+    if (nv && !nv.isMine)
+        return;
 
     var vScale = 1.0;
     var speed = walkSpeed;

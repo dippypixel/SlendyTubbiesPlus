@@ -845,8 +845,6 @@ GameObject:
   - component: {fileID: 114244425322759930}
   - component: {fileID: 114570632939879276}
   - component: {fileID: 114580283364193576}
-  - component: {fileID: 114416962229351202}
-  - component: {fileID: 114334045002893548}
   m_Layer: 0
   m_Name: PlayerMultiplayer
   m_TagString: Player
@@ -3183,17 +3181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed15ef1c954d7c445851ad05255091e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114334045002893548
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1577857559809758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114341507438886082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3212,17 +3199,6 @@ MonoBehaviour:
   maximumX: 0
   minimumY: -60
   maximumY: 60
---- !u!114 &114416962229351202
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1577857559809758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114444101379412352
 MonoBehaviour:
   m_ObjectHideFlags: 1
