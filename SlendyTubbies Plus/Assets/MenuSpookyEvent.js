@@ -14,7 +14,7 @@ function Start() {
 	buttons = menu.Find("singleplayer");
 	house = GameObject.Find("Teletubby house");
 	ground = GameObject.Find("Terrain");
-	script = menu.GetComponent("Popup gui script");
+	script = menu.GetComponent("Popupguiscript");
 	music = house.GetComponent.< AudioSource > ();
 	starttime = Random.Range(30.0f, 80.0f);
 }
