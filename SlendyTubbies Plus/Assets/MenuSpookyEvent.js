@@ -6,7 +6,7 @@ var menu: GameObject;
 var buttons: GameObject;
 var house: GameObject;
 var ground: GameObject;
-var script: Component;
+//var script: Component;
 var music: AudioSource;
 var ifseesobject: Transform;
 function Start() {
@@ -14,7 +14,7 @@ function Start() {
 	buttons = menu.Find("singleplayer");
 	house = GameObject.Find("Teletubby house");
 	ground = GameObject.Find("Terrain");
-	script = menu.GetComponent("Popupguiscript");
+	//script = menu.GetComponent("Popupguiscript");
 	music = house.GetComponent.< AudioSource > ();
 	starttime = Random.Range(30.0f, 80.0f);
 }
@@ -34,7 +34,7 @@ function Spooky()
 		Instantiate(ifseesobject, transform.position, transform.rotation);
 		spooky_initated = true;
 		Debug.Log("Activated");
-		Destroy(script);
+		//Destroy(script);
 		DestroyObject(buttons);
 		DestroyObject(ground);
 		DestroyObject(house);
