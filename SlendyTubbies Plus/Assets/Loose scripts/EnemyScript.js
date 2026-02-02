@@ -7,14 +7,15 @@ var speed : float = 5.0;
 public var offscreenDotRange: float = 0.7;
 public var visibleDotRange: float = 0.8; // ** between 0.75 and 0.85 (originally 0.8172719) 
 public var followDistance: float = 3.0;
-public var maxVisibleDistance: float = 25.0;
+public var maxVisibleDistance: float = 10.0;
 private var sqrDist: float = 0.0;
-var health: float = 100.0;
-var damage: float = 20.0;
+public var health: float = 100.0;
+var damage: float = 50.0;
 var timer: float = 0.0;
 var teleInterval1: float = 100;
 var teleInterval2: float = 200;
 var telenumb: float = 5;
+var modifermult: float = 5;
 
 var baseSpeed : float = 5.0;
 var baseTeleInterval1 : float = 100;
@@ -41,9 +42,11 @@ var friendlyaudio: AudioSource;
 var triggerTarget: GameObject;
 var tinkyObject: GameObject;
 var gos: GameObject[];
-var Ambience: GameObject;
 var replacementTex : Texture;
 var originalTex : Texture; 
+
+var house: GameObject;
+var ambience: AudioSource;
 
 var blackness : Texture2D;
 var scare : Texture2D;
@@ -56,41 +59,43 @@ var ifseesobject : Transform;
 
 function Start() 
 {
+    //set theEnemy variable as itself
+    theEnemy = transform;
+    //make face the happy one
     tinkyObject.GetComponent.< Renderer > ().material.mainTexture = originalTex;
+    //seek out player
     if ( thePlayer == null )
     {
        thePlayer = GameObject.FindWithTag("Player").transform;
     }
-    maxVisibleDistance = 10;
-    theEnemy = transform;
-
+    //seek out ambience
+    house = GameObject.Find("Teletubby house");
+    ambience = house.GetComponent.< AudioSource > ();
     // Initial values
     baseSpeed = speed;
     baseTeleInterval1 = teleInterval1;
     baseTeleInterval2 = teleInterval2;
-
     telenumb = Random.Range(teleInterval1, teleInterval2);
+    maxVisibleDistance = 10;
+    damage = 50;
 }
 
 function Update() 
 {
+    //texture debug
     if (originalTex == null) {
         Debug.Log("originaltex is not assigned!");
     }
-thePlayer = GameObject.FindWithTag("Player").transform;
-   	//Debug.Log("Player Position: " + thePlayer.position);
-   // Debug.Log("Enemy Position: " + theEnemy.position);
+    thePlayer = GameObject.FindWithTag("Player").transform;
     triggerTarget = thePlayer.gameObject;
-   // tinkyObject = theEnemy.gameObject;
     // Movement : check if out-of-view, then move
     CheckIfOffScreen();
     CheckIfFallen();
+    EnemyModfier();
     TeleportInv();
-   // Debug.Log(GetComponent.< Rigidbody > ().velocity);
 
-    //teleport
+    //teleport timer
     timer += Time.deltaTime;
-
 
 
     // if is Off Screen, move
@@ -113,7 +118,6 @@ thePlayer = GameObject.FindWithTag("Player").transform;
            }
            else if (!delayingHealth && delayedHealth) {
                stopTeleport = true;
-               maxVisibleDistance = 15;
                DeductHealth();
            }
            StopEnemy();
@@ -141,12 +145,20 @@ thePlayer = GameObject.FindWithTag("Player").transform;
 
 function DelayBeforeHealthDeduction() {
     delayingHealth = true;  // Set flag to indicate delay is active
+    Debug.Log("Delaying scream");
     yield WaitForSeconds(Random.Range(1, 3)); // 1-second delay
+    Debug.Log("Delayed scream");
     delayingHealth = false;  // Reset flag after delay ends
     delayedHealth = true;
+    //if they try to run he teleports right in front of them
+    if (isOffScreen) {
+        tinkyObject.GetComponent.< Renderer > ().material.mainTexture = replacementTex;
+        transform.position = thePlayer.position - thePlayer.forward * -maxVisibleDistance;
+    }
     // Proceed with health deduction after the delay if visible
-    if (isVisible) {
-        maxVisibleDistance = 20;
+    if (!isOffScreen) {
+        Debug.Log("Screaming");
+        maxVisibleDistance = 40;
         DeductHealth();
     }
 }
@@ -167,7 +179,7 @@ function DeductHealth()
     var teleint = Random.Range(0.5, 1.5);
     var teleposleft = Random.Range(0, 2) == 0 ? teleint : (teleint * -1);
     var teleposup = Random.Range(-.2, .2);
-    transform.position += (transform.right * teleposleft) + (transform.forward * .4) + (transform.up * teleposup);
+    transform.position += (transform.right * teleposleft) + (transform.forward * (.4*(modifermult))) + (transform.up * teleposup);
 
 
     // AAAAAAAAAAAAAAAAAAAAAAAAAA... AAAAAAAAAAAAAAAAAAAAAAAAA...
@@ -184,8 +196,8 @@ function DeductHealth()
         thePlayer.GetComponent.< crouchandrun > ().enabled = false;
         thePlayer.GetComponent.< CharacterMotor > ().enabled = false;
         thePlayer.GetComponent.< playerwalkingsound > ().enabled = false;
-        if (Ambience.GetComponent.< AudioSource > ().isPlaying) {
-            Ambience.GetComponent.< AudioSource > ().Stop();
+        if (ambience.isPlaying) {
+            ambience.Stop();
         }
         if (thePlayer.GetComponent.< AudioSource > ().isPlaying) {
             thePlayer.GetComponent.< AudioSource > ().Stop();
@@ -220,36 +232,6 @@ function CheckIfOffScreen()
 
 function MoveEnemy() 
 {
-    gos = GameObject.FindGameObjectsWithTag("Paper");
-    if(gos.length == 8) 
-    {
-        baseSpeed = 6.5;
-        baseTeleInterval1 = 1;
-        baseTeleInterval2 = 180;
-        telenumbChange1();
-    }
-
-    if(gos.length == 6)
-    {
-        if (Ambience.GetComponent.< AudioSource > ().isPlaying) {
-            Ambience.GetComponent.< AudioSource > ().Stop();
-        }
-        baseSpeed = 8.5;
-        baseTeleInterval2 = 120;
-        telenumbChange2();
-    }
-    if(gos.length == 4) {
-        baseSpeed = 9.5;
-        baseTeleInterval2 = 60;
-        telenumbChange3();
-    }
-    if(gos.length == 2)
-    {
-        baseSpeed = 11;
-        baseTeleInterval2 = 30;
-        telenumbChange4();
-    }
-
     // Bitch gets crazy here
     speed = baseSpeed * nightVisionMultiplierSpeed;
     teleInterval1 = baseTeleInterval1 * nightVisionMultiplierTele;
@@ -362,6 +344,61 @@ function CheckMaxVisibleRange()
     }  
 }
 
+function EnemyModfier()
+{
+    //if health is already delayed
+    if (delayedHealth && gos.length <= 8) {
+        maxVisibleDistance = 15 * modifermult;
+    }
+    gos = GameObject.FindGameObjectsWithTag("Paper");
+    if (gos.length == 8)
+    {
+        baseSpeed = 6.5;
+        baseTeleInterval1 = 1;
+        baseTeleInterval2 = 180;
+        modifermult = 1.2;
+        damage = 75;
+        telenumbChange1();
+    }
+
+    if (gos.length == 6) {
+        //shit gets real
+        if (ambience.isPlaying)
+        {
+            ambience.Stop();
+        }
+        //make him evil if not interacted yet
+        delayedHealth = true;
+        hasPlayedAudio = true;
+        tinkyObject.GetComponent.< Renderer > ().material.mainTexture = replacementTex;
+        //set stats
+        baseSpeed = 8.5;
+        baseTeleInterval2 = 120;
+        modifermult = 1.4;
+        damage = 100;
+        telenumbChange2();
+    }
+    if (gos.length == 4)
+    {
+        //set stats
+        baseSpeed = 9.5;
+        baseTeleInterval2 = 60;
+        modifermult = 1.6;
+        damage = 125;
+        telenumbChange3();
+    }
+    if (gos.length == 2)
+    {
+        //set stats
+        baseSpeed = 11;
+        baseTeleInterval2 = 30;
+        modifermult = 1.8;
+        damage = 150;
+        telenumbChange4();
+    }
+}
+
+
 
 function Teleport() {
     if (!teleported)
@@ -370,12 +407,12 @@ function Teleport() {
         // Teleporting the object
         var randompos: float = 0;
         var randomposside: float = 0;
-        if (gos.length == 4) {
-            randompos = Random.Range(0, 2) == 0 ? -100 : -20;
+        if (gos.length >= 4) {
+            randompos = Random.Range(0, 2) == 0 ? (-100 / Random.Range(1, modifermult)) : (20 / Random.Range(1, modifermult));
             randomposside = Random.Range(-50, 50);
         }
         else {
-            randompos = Random.Range(0, 2) == 0 ? 4 : -50; 
+            randompos = Random.Range(0, 2) == 0 ? (-50 / Random.Range(1, modifermult)) : 4; 
             randomposside = Random.Range(-10, 10);
         }
         transform.position = thePlayer.position - thePlayer.forward * randompos + thePlayer.right * randomposside;
