@@ -103,6 +103,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2017.1.0b4/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2017.1.0b4/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2017.1.0b4/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2017.1.0b4/Editor/Data\Managed/Mono.Cecil.dll"
 -i:UnityEditor
 Assets/CollideScript.js
 Assets/createonclick.js

@@ -254,7 +254,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 20db4a9f8b02ca54e95acc4a1325c2c9, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.015
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -361,6 +361,7 @@ MonoBehaviour:
   teleInterval1: 100
   teleInterval2: 200
   telenumb: 300
+  modifermult: 1
   baseSpeed: 5
   baseTeleInterval1: 100
   baseTeleInterval2: 200
@@ -391,9 +392,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  Ambience: {fileID: 100044, guid: 14d317750a2c2444b9e7e1a38334466a, type: 3}
   replacementTex: {fileID: 2800000, guid: 523376ad9e71d9e40a98855b77cb3029, type: 3}
   originalTex: {fileID: 2800000, guid: 1b68f958598fc9f479211c8054eb5669, type: 3}
+  house: {fileID: 0}
+  ambience: {fileID: 0}
   blackness: {fileID: 2800000, guid: 531c14f8d5cdc4e5baa83ee6e16f783a, type: 3}
   scare: {fileID: 2800000, guid: 2166617fd243b024c8073675ff018174, type: 3}
   endgamepopup: {fileID: 400000, guid: a6608b39e5f56e8468400f8acf79da59, type: 2}

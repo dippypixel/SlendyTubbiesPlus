@@ -1,12 +1,14 @@
 var torchClick : AudioClip;
 
 var flashLight : Light;
-
+public var theEnemy: Transform;
+var script: Component;
 function Start()
 {
     flashLight.GetComponent.<Light>().enabled = true;
     flashLight.GetComponent.<Light>().intensity = 5;
-
+    theEnemy = GameObject.FindWithTag("Enemy").transform;
+    script = theEnemy.GetComponent("EnemyScript");
 }
 
 function Update()
@@ -14,7 +16,7 @@ function Update()
 
     if(flashLight.GetComponent.<Light>().enabled == true)
     {
-        flashLight.GetComponent.<Light>().intensity -= 0.1 * Time.deltaTime / 5;
+        flashLight.GetComponent.< Light > ().intensity = script.health*.1;
         Debug.Log(flashLight.GetComponent.<Light>().intensity);
     }
 
