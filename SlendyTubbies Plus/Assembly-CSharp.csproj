@@ -53,9 +53,9 @@
      <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\PlayerNetworkController.cs" />
      <Compile Include="Assets\popups\gameoptions.cs" />
+     <Compile Include="Assets\Scenes\Start Scenes\LoadMenu.cs" />
+     <Compile Include="Assets\Scenes\Start Scenes\StartScene.cs" />
      <Compile Include="Assets\spawnslendy.cs" />
-     <Compile Include="Assets\Start Scenes\LoadMenu.cs" />
-     <Compile Include="Assets\Start Scenes\StartScene.cs" />
      <Compile Include="Assets\test.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\CollideScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CollideScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Loose scripts\\EnemyScript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -54,11 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CollideScript.js",
+              "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\CollideScript.js",
+              "RelativeDocumentMoniker": "Assets\\CollideScript.js",
+              "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\CollideScript.js",
+              "RelativeToolTip": "Assets\\CollideScript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-02T03:21:03.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "flashlight.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\flashlight.js",
               "RelativeDocumentMoniker": "Assets\\flashlight.js",
@@ -66,12 +83,11 @@
               "RelativeToolTip": "Assets\\flashlight.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-01T21:46:59.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T21:46:59.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomerScript.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Stupid shit\\HomerScript.js",
               "RelativeDocumentMoniker": "Assets\\Stupid shit\\HomerScript.js",
@@ -83,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuSpookyEvent.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\MenuSpookyEvent.js",
               "RelativeDocumentMoniker": "Assets\\MenuSpookyEvent.js",
@@ -91,12 +107,11 @@
               "RelativeToolTip": "Assets\\MenuSpookyEvent.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-01T20:36:26.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T20:36:26.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Popupguiscript.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\popups\\Popupguiscript.js",
               "RelativeDocumentMoniker": "Assets\\popups\\Popupguiscript.js",
@@ -108,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CollectPapers.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\CollectPapers.js",
               "RelativeDocumentMoniker": "Assets\\Loose scripts\\CollectPapers.js",
@@ -120,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Popups.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\popups\\Popups.js",
               "RelativeDocumentMoniker": "Assets\\popups\\Popups.js",
@@ -132,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TriggerDipsy.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\TriggerDipsy.js",
               "RelativeDocumentMoniker": "Assets\\TriggerDipsy.js",
@@ -144,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PoTrigger.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\PoTrigger.js",
               "RelativeDocumentMoniker": "Assets\\PoTrigger.js",
@@ -156,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "lalatrigger.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\lalatrigger.js",
               "RelativeDocumentMoniker": "Assets\\lalatrigger.js",
@@ -168,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MenuTinkyScript.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\MenuTinkyScript.js",
               "RelativeDocumentMoniker": "Assets\\MenuTinkyScript.js",
@@ -180,13 +195,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemyScript.js",
               "DocumentMoniker": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js",
               "RelativeDocumentMoniker": "Assets\\Loose scripts\\EnemyScript.js",
               "ToolTip": "C:\\UnityProjects\\SlendyTubbiesPlus\\SlendyTubbies Plus\\Assets\\Loose scripts\\EnemyScript.js",
               "RelativeToolTip": "Assets\\Loose scripts\\EnemyScript.js",
-              "ViewState": "AgIAAKgBAAAAAAAAAAAmwL4BAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-26T22:16:48.734Z",
               "EditorCaption": ""
