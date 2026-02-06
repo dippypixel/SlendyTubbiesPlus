@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Single/SingleplayerMorning.unity
+- path: Assets/Scenes/mainmeny.unity
   isLoaded: 1
   isActive: 1

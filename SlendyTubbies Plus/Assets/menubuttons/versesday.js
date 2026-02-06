@@ -2,6 +2,6 @@ var clicked : boolean = false;
 
 function OnMouseDown() {
     clicked = !clicked;
-Application.LoadLevel(6);
+Application.LoadLevel(9);
     Debug.Log("clicked credits" + (clicked? "" : " off"));
 }

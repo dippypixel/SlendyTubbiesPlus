@@ -6288,6 +6288,7 @@ MonoBehaviour:
   speedLimit: 10
   minSpeed: 1
   stopTime: 1
+  waypoint: {fileID: 0}
   rotationDamping: 6
   smoothRotation: 1
   waypoints:
@@ -6362,7 +6363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1194bb5e48b9ce740a6fb6c23562165c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerFlashlightPrefab: {fileID: 1577857559809758, guid: 58f8fff85fc7cf448afdd82c32938b1b,
+  PlayerFlashlightPrefab: {fileID: 1505419608186184, guid: 58f8fff85fc7cf448afdd82c32938b1b,
     type: 2}
   PlayerNightVisionPrefab: {fileID: 1419414737513502, guid: 3a9095fd97cca764f8b31a0e649e7ebf,
     type: 2}
@@ -10820,7 +10821,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400010, guid: 2217025f82e135946bf55ab57a5a1b16, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 702109457}
-  m_LocalRotation: {x: 0.69435316, y: 0.00026963896, z: 0.7196344, w: -0.00029175743}
+  m_LocalRotation: {x: 0.6943531, y: 0.00026963893, z: 0.71963435, w: -0.0002917574}
   m_LocalPosition: {x: 0.00022583007, y: 0.000021948814, z: -0.012629862}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1}
   m_Children:
@@ -15519,7 +15520,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   po: {fileID: 1713893824}
+  ambience: {fileID: 0}
+  collectsnd: {fileID: 0}
   ropesound: {fileID: 1558258913}
+  head: {fileID: 0}
+  chance: 0
   played: 0
 --- !u!23 &1825463103
 MeshRenderer:
