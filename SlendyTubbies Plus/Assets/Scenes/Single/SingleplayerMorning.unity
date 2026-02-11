@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.06
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+  m_AmbientSkyColor: {r: 0.1, g: 0.1, b: 0.1, a: 0}
   m_AmbientEquatorColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 0}
   m_AmbientGroundColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 0}
   m_AmbientIntensity: 1
@@ -10888,7 +10888,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400010, guid: 2217025f82e135946bf55ab57a5a1b16, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 504754240}
-  m_LocalRotation: {x: 0.6943531, y: 0.00026963893, z: 0.71963435, w: -0.0002917574}
+  m_LocalRotation: {x: 0.69435316, y: 0.00026963896, z: 0.7196344, w: -0.00029175743}
   m_LocalPosition: {x: 0.00022583007, y: 0.000021948814, z: -0.012629862}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1}
   m_Children:
@@ -11917,7 +11917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1194bb5e48b9ce740a6fb6c23562165c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerFlashlightPrefab: {fileID: 1505419608186184, guid: 58f8fff85fc7cf448afdd82c32938b1b,
+  PlayerFlashlightPrefab: {fileID: 1520087942156214, guid: 58f8fff85fc7cf448afdd82c32938b1b,
     type: 2}
   PlayerNightVisionPrefab: {fileID: 1419414737513502, guid: 3a9095fd97cca764f8b31a0e649e7ebf,
     type: 2}
@@ -12240,7 +12240,7 @@ Prefab:
     - target: {fileID: 82619973484276218, guid: 0bc7b35b7a2da3a4c9d665dd1a5f4923,
         type: 2}
       propertyPath: m_Volume
-      value: 0.221
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1331919833102672, guid: 0bc7b35b7a2da3a4c9d665dd1a5f4923, type: 2}
       propertyPath: m_IsActive
@@ -12250,7 +12250,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f4dcbf3311f21934daca017309303d14, type: 3}
+      objectReference: {fileID: 8300000, guid: 6212f303ca249ce49bc7210bd8763a79, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0bc7b35b7a2da3a4c9d665dd1a5f4923, type: 2}
   m_IsPrefabParent: 0
