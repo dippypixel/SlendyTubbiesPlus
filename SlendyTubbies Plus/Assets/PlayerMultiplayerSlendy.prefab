@@ -731,6 +731,17 @@ MonoBehaviour:
   blackness: {fileID: 0}
   scare: {fileID: 0}
   endgamepopup: {fileID: 400000, guid: a6608b39e5f56e8468400f8acf79da59, type: 2}
+  invisible: 0
+  invisDuration: 5
+  invisCooldown: 10
+  canInvis: 1
+  invisText: {fileID: 0}
+  bindText: {fileID: 0}
+  invisTimer: 0
+  playercam: {fileID: 0}
+  model: {fileID: 0}
+  tinkmodel: {fileID: 0}
+  tinkpopup: {fileID: 400000, guid: 8b630e9da79779649afd20517a349f3e, type: 2}
 --- !u!1002 &11400011
 EditorExtensionImpl:
   serializedVersion: 6

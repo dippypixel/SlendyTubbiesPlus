@@ -1,25 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\menubuttons\versesnight.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\flashlight.js">
     <Files>
       <File FileName="Assets\EnemyScriptPlayer.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\versesday.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\versesdusk.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\versesnight.js" Line="5" Column="25" />
       <File FileName="Assets\Tinkyvision.js" Line="1" Column="1" />
-      <File FileName="Assets\GameMenuVerses.cs" Line="1" Column="1" />
-      <File FileName="Assets\ohgodhaavemercy.js" Line="1" Column="1" />
-      <File FileName="Assets\NetworkTransformSimple.js" Line="1" Column="1" />
-      <File FileName="Assets\PlayerNetworkController.cs" Line="1" Column="1" />
-      <File FileName="Assets\crouchandrun.js" Line="1" Column="1" />
-      <File FileName="Assets\flashlight.js" Line="1" Column="1" />
-      <File FileName="Assets\spawnslendysgui.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\singleplayerday.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\singleplayerdusk.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\singleplayernight.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\coopday.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\coopdusk.js" Line="1" Column="1" />
-      <File FileName="Assets\menubuttons\coopnight.js" Line="1" Column="1" />
+      <File FileName="Assets\flashlight.js" Line="34" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

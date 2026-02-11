@@ -6629,7 +6629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e805a1cafad1b6a44b5d59af06b9a582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 1595187172453404, guid: 1e4ae29d7ad06da4c9172ecc3c50fa27,
+  PlayerPrefab: {fileID: 1439640492268930, guid: 1e4ae29d7ad06da4c9172ecc3c50fa27,
     type: 2}
   TinkyPrefab: {fileID: 100000, guid: 7ff32c7ee938d4549b169962a2becf76, type: 2}
   NoFog: {fileID: 100000, guid: 9ab786493a1b2124fb00613700c1ea5e, type: 2}
